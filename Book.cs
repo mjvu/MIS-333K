@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Project.Properties
+namespace Team32_Project.Models
 {
     public class Book
     {
