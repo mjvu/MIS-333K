@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Project.Properties
+namespace Team32_Project.Models
 {
     public class Coupon
     {
@@ -11,6 +11,6 @@ namespace Project.Properties
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
 
-        public Order Orders { get; set; }
+        public Order Order { get; set; }
     }
 }

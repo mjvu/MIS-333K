@@ -1,5 +1,7 @@
 ﻿using System;
-namespace Project.Properties
+using System.Collections.Generic;
+
+namespace Team32_Project.Models
 {
     public class Genre
     {
