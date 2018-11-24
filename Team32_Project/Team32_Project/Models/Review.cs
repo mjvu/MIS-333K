@@ -11,6 +11,6 @@ namespace Team32_Project.Models
         public String Author { get; set; }
         public String Approver { get; set; }
 
-        public List<Book> Books { get; set; }
+        public Book Book { get; set; }
     }
 }
