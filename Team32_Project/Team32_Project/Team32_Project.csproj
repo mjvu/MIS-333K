@@ -20,4 +20,9 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />    
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Migrations\20181124222027_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20181124222027_InitialCreate.cs" />
+    <Compile Remove="Migrations\AppDbContextModelSnapshot.cs" />
+  </ItemGroup>
 </Project>
