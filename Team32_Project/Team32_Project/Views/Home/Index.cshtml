@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Bevo's Books Home Page</h2>
+
+@Html.ActionLink("Books", "Index", "Books", null, new { @class = "btn btn-primary" })
+@Html.ActionLink("Book Search", "Index", "Search", null, new { @class = "btn btn-secondary" })
+
+@*@if (User.Identity.IsAuthenticated)
+    {
+        @Html.ActionLink("Orders", "Index", "Orders", null, new { @class = "btn btn-danger" })
+
+        if (User.IsInRole("Manager"))
+        {
+            @Html.ActionLink("Suppliers", "Index", "Suppliers", null, new { @class = "btn btn-success" })
+            @Html.ActionLink("Manage Users", "Index", "RoleAdmin", null, new { @class = "btn btn-info" })
+        }
+    }*@
