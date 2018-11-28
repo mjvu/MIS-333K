@@ -23,10 +23,10 @@
             @Html.DisplayFor(model => model.Author)
         </dd>
         <dt>
-            @Html.DisplayNameFor(model => model.BookID)
+            @Html.DisplayNameFor(model => model.UniqueID)
         </dt>
         <dd>
-            @Html.DisplayFor(model => model.BookID)
+            @Html.DisplayFor(model => model.UniqueID)
         </dd>
         <dt>
             @Html.DisplayNameFor(model => model.Price)
@@ -35,16 +35,16 @@
             @Html.DisplayFor(model => model.Price)
         </dd>
         <dt>
-            @Html.DisplayNameFor(model => model.PublicationDate)
+            Published Date
         </dt>
         <dd>
             @Html.DisplayFor(model => model.PublicationDate)
         </dd>
         <dt>
-            @Html.DisplayNameFor(model => model.Genre)
+            Genre Name
         </dt>
         <dd>
-            @Html.DisplayFor(model => model.Genre)
+            @Html.DisplayFor(model => model.Genre.GenreName)
         </dd>
     </dl>
 </div>

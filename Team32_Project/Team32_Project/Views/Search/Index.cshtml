@@ -4,14 +4,9 @@
     ViewData["Title"] = "View";
 }
 
-<form asp-action="Index" asp-controller="Home" method="get">
-    <p class="form-group">
-        Search: <input name="SearchString" class="form-control" /><br />
-        <button type="submit" class="btn btn-secondary">Search</button>
-        <a asp-action="DetailedSearch" class="btn btn-success">Detailed Search</a>
-        <a asp-action="Index" class="btn btn-danger">Show All</a>
-    </p>
-</form>
+<h2>Book Search</h2>
+<a asp-action="DetailedSearch" class="btn btn-success">Book Search</a>
+<a asp-action="Index" class="btn btn-danger">Show All</a>
 
 <p>Displaying @ViewBag.SelectedBooks out of @ViewBag.TotalBooks Books</p>
 
@@ -25,9 +20,11 @@
                 @Html.DisplayNameFor(model => model.Author)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.BookID)
+                @Html.DisplayNameFor(model => model.UniqueID)
             </th>
-            @*TO ADD: whether item is in stock *@
+            <th>
+                Number of Books In Stock
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.Rating)
             </th>
@@ -35,7 +32,8 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model) {
+        @foreach (var item in Model)
+        {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Title)
@@ -44,9 +42,11 @@
                 @Html.DisplayFor(modelItem => item.Author)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.BookID)
+                @Html.DisplayFor(modelItem => item.UniqueID)
             </td>
-            @*TO ADD: whether item is in stock *@
+            <td>
+                @Html.DisplayFor(modelItem => item.CopiesOnHand)
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Rating)
             </td>
@@ -54,6 +54,6 @@
                 <a asp-action="Details" asp-route-id="@item.BookID">Details</a>
             </td>
         </tr>
-}
+        }
     </tbody>
 </table>

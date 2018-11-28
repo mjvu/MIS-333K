@@ -1,4 +1,4 @@
-﻿/*using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -21,90 +21,108 @@ namespace Team32_Project.Controllers
             _db = context;
         }
 
-        //public IActionResult Details(int? id)
-        //{
-        //    if (id == null) //Repo id not specified
-        //    {
-        //        return View("Error", new String[] { "Repository ID not specified - which repo do you want to view?" });
-        //    }
+        public ActionResult Index()
+        {
+            List<Book> SelectedBooks = new List<Book>();
+            ViewBag.TotalBooks = _db.Books.Count();
+            ViewBag.SelectedBooks = ViewBag.TotalBooks;
 
-        //    Repository repo = _db.Repositories.Include(r => r.Language).FirstOrDefault(r => r.RepositoryID == id);
+            return View("Index", _db.Books.Include(b => b.Genre).ToList());
+        }
 
-        //    if (repo == null) //Repo does not exist in database
-        //    {
-        //        return View("Error", new String[] { "Repository not found in database" });
-        //    }
+        public IActionResult Details(int? id)
+        {
+            if (id == null) //Book id not specified
+            {
+                return View("Error", new String[] { "Book ID not specified - which book do you want to view?" });
+            }
 
-        //    //if code gets this far, all is well
-        //    return View(repo);
-        //}
+            Book book = _db.Books.Include(b => b.Genre).FirstOrDefault(b => b.BookID == id);
+
+            if (book == null) //Book does not exist in database
+            {
+                return View("Error", new String[] { "Book not found in database" });
+            }
+
+            //if code gets this far, all is well
+            return View(book);
+        }
 
         public ActionResult DetailedSearch()
         {
             return View("DetailedSearch");
         }
 
-        public ActionResult DisplaySearchResults(String strSearchTitle, String strSearchAuthor, String strSearchNumber,
-                                                    String strSearchGenre)
+        public enum SortOrder { Title, Author, MostPopular, NewestBook, OldestBook, HighestRated, InStock }
+
+        public ActionResult DisplaySearchResults(String SearchTitle, String SearchAuthor, String DesiredNumber,
+                                                    String SearchGenre, SortOrder SelectedSortOrder)
         {
             List<Book> SelectedBooks = new List<Book>();
 
-            var query = from r in _db.Books
-                        select r;
+            var query = from b in _db.Books
+                        select b;
 
-            ////TODO: Code for name searching
-            //if (SearchString != null && SearchString != "")
-            //{
-            //    query = query.Where(r => r.UserName.Contains(SearchString) ||
-            //                                r.RepositoryName.Contains(SearchString));
-            //}
+            if (SearchTitle != null && SearchTitle != "")
+            {
+                query = query.Where(b => b.Title.Contains(SearchTitle));
+            }
 
-            ////TODO: Code for description searching (textbox contains a string)
-            //if (SearchDescription != null && SearchDescription != "")
-            //{
-            //    query = query.Where(r => r.Description.Contains(SearchDescription));
-            //}
+            if (SearchAuthor != null && SearchAuthor != "")
+            {
+                query = query.Where(b => b.Author.Contains(SearchAuthor));
+            }
 
-            ////TODO: Code for drop-down list
-            //if (SelectedLanguage != 0)
-            //{
-            //    query = query.Where(r => r.Language.LanguageID == SelectedLanguage);
-            //}
+            //Convert string into decimal
+            Decimal SearchNumber = Convert.ToDecimal(DesiredNumber);
+            if (DesiredNumber != null)
+            {
+                query = query.Where(b => b.UniqueID == SearchNumber);
+            }
 
-            ////TODO: Code for star searching (textbox contains a string)
-            ////Convert string into decimal
-            //Decimal SearchStars = Convert.ToDecimal(DesiredStars);
-            //if (DesiredStars != null)
-            //{
-            //    //TODO: More code for radio buttons (must pick one)
-            //    //Figure out sort order
-            //    if (SelectedSortOrder == SortOrder.GreaterThan)
-            //    {
-            //        query = query.Where(r => r.StarCount >= SearchStars);
-            //    }
-            //    else if (SelectedSortOrder == SortOrder.LessThan)
-            //    {
-            //        query = query.Where(r => r.StarCount <= SearchStars);
-            //    }
-            //}
+            if (SearchGenre != null && SearchGenre != "")
+            {
+                query = query.Where(b => b.Author.Contains(SearchGenre));
+            }
 
-            ////TODO: Code for date picker
-            ////Determine suggested date
-            //if (datSelectedDate != null)
-            //{
-            //    //convert date to non-nullable type.  ?? means if the 
-            //    //datSelectedDate is null, set it equal to Jan 1, 1900
-            //    DateTime datSelected = datSelectedDate ?? new DateTime(1900, 1, 1);
+            SelectedBooks = query.Include(b => b.Genre).ToList();
 
-            //    query = query.Where(r => r.LastUpdate >= datSelected);
-            //}
+            ViewBag.TotalBooks = _db.Books.Count();
+            ViewBag.SelectedBooks = SelectedBooks.Count();
 
-            //ViewBag.TotalBooks = _db.Books.Count();
-            //ViewBag.SelectedBooks = SelectedBooks.Count();
+            //Figure out the sort order
+            if (SelectedSortOrder == SortOrder.Title)
+            {
+                return View("Index", SelectedBooks.OrderBy(b => b.Title));
+            }
+            else if (SelectedSortOrder == SortOrder.Author)
+            {
+                return View("Index", SelectedBooks.OrderBy(b => b.Author));
+            }
+            else if (SelectedSortOrder == SortOrder.MostPopular)
+            {
+                //figure out how to do this
+                
+            }
+            else if (SelectedSortOrder == SortOrder.NewestBook)
+            {
+                return View("Index", SelectedBooks.OrderByDescending(b => b.PublicationDate));
+            }
+            else if (SelectedSortOrder == SortOrder.OldestBook)
+            {
+                return View("Index", SelectedBooks.OrderBy(b => b.PublicationDate));
+            }
+            else if (SelectedSortOrder == SortOrder.HighestRated)
+            {
+                return View("Index", SelectedBooks.OrderByDescending(b => b.Rating));
+            }
+            else if (SelectedSortOrder == SortOrder.InStock)
+            {
+                return View("Index", query = query.Where(b => b.CopiesOnHand > 0));
+            }
 
-            ///send all this stuff to the view
-            //return View("Index", SelectedBooks);
+            //send all this stuff to the view
+            return View("Index", SelectedBooks);
         }
     }
 }
-*/

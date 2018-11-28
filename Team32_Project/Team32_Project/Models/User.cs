@@ -18,7 +18,6 @@ namespace Team32_Project.Models
         public Int32 PhoneNumber { get; set; }
         public Boolean Active { get; set; }
 
-
         public List<Order> Orders { get; set; }
         public List<Review> ReviewsWritten { get; set; }
         public List<Review> ReviewsApproved { get; set; }

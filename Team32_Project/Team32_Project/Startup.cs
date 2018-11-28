@@ -17,7 +17,7 @@ namespace Team32_Project
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            var connectionString = "Server=tcp:bevosbooks32.database.windows.net,1433;Initial Catalog=BevosBooks32;Persist Security Info=False;User ID=MISAdmin;Password=Password1;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+            var connectionString = "Server=tcp:bevosbooks.database.windows.net,1433;Initial Catalog=bevosbooks;Persist Security Info=False;User ID=MISAdmin;Password=Password1;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
 
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
             services.AddMvc();
