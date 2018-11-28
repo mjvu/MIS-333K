@@ -11,6 +11,5 @@ namespace Team32_Project.Models
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
 
-        public Order Order { get; set; }
     }
 }

@@ -13,6 +13,5 @@ namespace Team32_Project.Models
 
         public User User { get; set; }
         public List<OrderDetail> OrderDetails { get; set; }
-        public List<Coupon> Coupons { get; set; }
     }
 }
