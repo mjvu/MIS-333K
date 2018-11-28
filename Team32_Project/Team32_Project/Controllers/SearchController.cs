@@ -50,13 +50,14 @@ namespace Team32_Project.Controllers
 
         public ActionResult DetailedSearch()
         {
+            ViewBag.AllGenres = GetAllGenres();
             return View("DetailedSearch");
         }
 
         public enum SortOrder { Title, Author, MostPopular, NewestBook, OldestBook, HighestRated, InStock }
 
         public ActionResult DisplaySearchResults(String SearchTitle, String SearchAuthor, String DesiredNumber,
-                                                    String SearchGenre, SortOrder SelectedSortOrder)
+                                                    int SelectedGenre, SortOrder SelectedSortOrder)
         {
             List<Book> SelectedBooks = new List<Book>();
 
@@ -80,9 +81,9 @@ namespace Team32_Project.Controllers
                 query = query.Where(b => b.UniqueID == SearchNumber);
             }
 
-            if (SearchGenre != null && SearchGenre != "")
+            if (SelectedGenre != 0)
             {
-                query = query.Where(b => b.Author.Contains(SearchGenre));
+                query = query.Where(b => b.Genre.GenreID == SelectedGenre);
             }
 
             SelectedBooks = query.Include(b => b.Genre).ToList();
@@ -123,6 +124,21 @@ namespace Team32_Project.Controllers
 
             //send all this stuff to the view
             return View("Index", SelectedBooks);
+        }
+
+        public SelectList GetAllGenres()
+        {
+            List<Genre> Genres = _db.Genres.ToList();
+
+            //add a record for all languages
+            Genre SelectNone = new Genre() { GenreID = 0, GenreName = "All Genres" };
+            Genres.Add(SelectNone);
+
+            //convert list to select list
+            SelectList AllGenres = new SelectList(Genres.OrderBy(m => m.GenreID), "GenreID", "GenreName");
+
+            //return the select list
+            return AllGenres;
         }
     }
 }
