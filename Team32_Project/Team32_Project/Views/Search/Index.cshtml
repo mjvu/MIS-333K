@@ -26,7 +26,7 @@
                 Number of Books In Stock
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Rating)
+                @Html.DisplayNameFor(model => model.AverageRating)
             </th>
             <th></th>
         </tr>
@@ -48,7 +48,7 @@
                 @Html.DisplayFor(modelItem => item.CopiesOnHand)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Rating)
+                @Html.DisplayFor(modelItem => item.AverageRating)
             </td>
             <td>
                 <a asp-action="Details" asp-route-id="@item.BookID">Details</a>

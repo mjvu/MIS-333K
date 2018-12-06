@@ -1,4 +1,5 @@
-﻿
+﻿@model Team32_Project.Models.Order
+
 @{
     ViewData["Title"] = "Index";
 }
@@ -6,15 +7,26 @@
 <h2>Bevo's Books Home Page</h2>
 
 @Html.ActionLink("Books", "Index", "Books", null, new { @class = "btn btn-primary" })
+
 @Html.ActionLink("Book Search", "Index", "Search", null, new { @class = "btn btn-secondary" })
 
-@*@if (User.Identity.IsAuthenticated)
-    {
-        @Html.ActionLink("Orders", "Index", "Orders", null, new { @class = "btn btn-danger" })
+@if (User.Identity.IsAuthenticated)
+{
+    @Html.ActionLink("Cart", "Create", "Orders", null, new { @class = "btn btn-danger" })
 
-        if (User.IsInRole("Manager"))
-        {
-            @Html.ActionLink("Suppliers", "Index", "Suppliers", null, new { @class = "btn btn-success" })
-            @Html.ActionLink("Manage Users", "Index", "RoleAdmin", null, new { @class = "btn btn-info" })
-        }
-    }*@
+    if (User.IsInRole("Employee"))
+    {
+        @:
+        @Html.ActionLink("Manage Customers", "Index", "RoleAdmin", null, new { @class = "btn btn-info" })
+    }
+
+    if (User.IsInRole("Manager"))
+    {
+        @:
+        @Html.ActionLink("Manage Employees", "Index", "RoleAdmin", null, new { @class = "btn btn-info" })
+        @:
+        @Html.ActionLink("Manage Coupons", "Index", "Coupons", null, new { @class = "btn btn-success" })
+        @:
+        @Html.ActionLink("Reorder Books", "Index", "Reorders", null, new { @class = "btn btn-warning" })
+    }
+}

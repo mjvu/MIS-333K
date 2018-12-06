@@ -11,5 +11,13 @@ namespace Team32_Project.Models
         public Boolean ReorderType { get; set; }
 
         public List<ReorderDetail> ReorderDetails { get; set; }
+
+        public Reorder()
+        {
+            if (ReorderDetails == null)
+            {
+                ReorderDetails = new List<ReorderDetail>();
+            }
+        }
     }
 }
