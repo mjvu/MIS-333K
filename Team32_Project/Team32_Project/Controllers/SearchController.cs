@@ -115,7 +115,7 @@ namespace Team32_Project.Controllers
             }
             else if (SelectedSortOrder == SortOrder.HighestRated)
             {
-                return View("Index", SelectedBooks.OrderByDescending(b => b.Rating));
+                return View("Index", SelectedBooks.OrderByDescending(b => b.AverageRating));
             }
             else if (SelectedSortOrder == SortOrder.InStock)
             {

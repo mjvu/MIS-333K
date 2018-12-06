@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Team32_Project.Models.CreditCard>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Add Credit Card</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Card1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Card2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Card3)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Card1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Card2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Card3)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.CreditCardID">Edit</a> |
+                <a asp-action="Delete" asp-route-id="@item.CreditCardID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

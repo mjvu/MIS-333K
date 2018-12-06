@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Team32_Project.Models.OrderDetail>
+
+@{
+    ViewData["Title"] = "RemoveFromOrder";
+}
+
+<h2>Edit Order</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            Book Title
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BookPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ExtendedPrice)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Book.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Quantity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BookPrice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ExtendedPrice)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", "OrderDetails", new { id = item.OrderDetailID }, null) |
+            @Html.ActionLink("Delete", "Delete", "OrderDetails", new { id = item.OrderDetailID }, null)
+        </td>
+    </tr>
+}
+
+</table>
