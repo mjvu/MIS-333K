@@ -31,8 +31,8 @@ namespace Team32_Project.Seeding
                 b1.Description = "A Lab-terrier mix with great insight into the human condition helps his owner, a struggling race car driver.";
                 b1.Price = 23.95m;
                 b1.Cost = 10.30m;
-                b1.ReorderPoint = 1m;
-                b1.CopiesOnHand = 2m;
+                b1.ReorderPoint = 1;
+                b1.CopiesOnHand = 2;
                 b1.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b1);
 
@@ -45,8 +45,8 @@ namespace Team32_Project.Seeding
                 b2.Description = "Aliens have taken control of the minds and bodies of most humans, but one woman won’t surrender.";
                 b2.Price = 25.99m;
                 b2.Cost = 13.25m;
-                b2.ReorderPoint = 7m;
-                b2.CopiesOnHand = 8m;
+                b2.ReorderPoint = 7;
+                b2.CopiesOnHand = 8;
                 b2.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b2);
 
@@ -59,8 +59,8 @@ namespace Team32_Project.Seeding
                 b3.Description = "The Los Angeles private eye Elvis Cole responsible for the release of a serial killer?";
                 b3.Price = 25.95m;
                 b3.Cost = 9.08m;
-                b3.ReorderPoint = 7m;
-                b3.CopiesOnHand = 10m;
+                b3.ReorderPoint = 7;
+                b3.CopiesOnHand = 10;
                 b3.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b3);
 
@@ -73,8 +73,8 @@ namespace Team32_Project.Seeding
                 b4.Description = "An F.B.I. agent tracks a serial killer who uses spiders as a weapon.";
                 b4.Price = 25.00m;
                 b4.Cost = 11.25m;
-                b4.ReorderPoint = 2m;
-                b4.CopiesOnHand = 5m;
+                b4.ReorderPoint = 2;
+                b4.CopiesOnHand = 5;
                 b4.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b4);
 
@@ -87,8 +87,8 @@ namespace Team32_Project.Seeding
                 b5.Description = "A hideously burned man is cared for by a sculptress who claims they were lovers seven centuries ago.";
                 b5.Price = 25.95m;
                 b5.Cost = 16.09m;
-                b5.ReorderPoint = 3m;
-                b5.CopiesOnHand = 5m;
+                b5.ReorderPoint = 3;
+                b5.CopiesOnHand = 5;
                 b5.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b5);
 
@@ -101,8 +101,8 @@ namespace Team32_Project.Seeding
                 b6.Description = "A medical student investigates a rising number of deaths among medical tourists at foreign hospitals.";
                 b6.Price = 25.95m;
                 b6.Cost = 24.65m;
-                b6.ReorderPoint = 6m;
-                b6.CopiesOnHand = 11m;
+                b6.ReorderPoint = 6;
+                b6.CopiesOnHand = 11;
                 b6.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b6);
 
@@ -115,8 +115,8 @@ namespace Team32_Project.Seeding
                 b7.Description = "Book 12 of the Dark-Hunter paranormal series.";
                 b7.Price = 24.95m;
                 b7.Cost = 13.72m;
-                b7.ReorderPoint = 2m;
-                b7.CopiesOnHand = 2m;
+                b7.ReorderPoint = 2;
+                b7.CopiesOnHand = 2;
                 b7.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b7);
 
@@ -129,8 +129,8 @@ namespace Team32_Project.Seeding
                 b8.Description = "A 25-year-old newly in control of her family’s corporate empire faces tough choices in business and in love.";
                 b8.Price = 27.95m;
                 b8.Cost = 21.80m;
-                b8.ReorderPoint = 5m;
-                b8.CopiesOnHand = 9m;
+                b8.ReorderPoint = 5;
+                b8.CopiesOnHand = 9;
                 b8.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b8);
 
@@ -143,8 +143,8 @@ namespace Team32_Project.Seeding
                 b9.Description = "Her marriage broken, the author of a syndicated comic strip flees to California, where romance and surprise await.";
                 b9.Price = 25.95m;
                 b9.Cost = 5.45m;
-                b9.ReorderPoint = 8m;
-                b9.CopiesOnHand = 8m;
+                b9.ReorderPoint = 8;
+                b9.CopiesOnHand = 8;
                 b9.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b9);
 
@@ -157,8 +157,8 @@ namespace Team32_Project.Seeding
                 b10.Description = "In the third volume of the Genesis of Shannara series, champions of the Word and the Void clash.";
                 b10.Price = 27.00m;
                 b10.Cost = 6.75m;
-                b10.ReorderPoint = 6m;
-                b10.CopiesOnHand = 6m;
+                b10.ReorderPoint = 6;
+                b10.CopiesOnHand = 6;
                 b10.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b10);
 
@@ -171,8 +171,8 @@ namespace Team32_Project.Seeding
                 b11.Description = "The story of Mary, Queen of Scots, in captivity under Queen Elizabeth.";
                 b11.Price = 25.95m;
                 b11.Cost = 23.61m;
-                b11.ReorderPoint = 3m;
-                b11.CopiesOnHand = 8m;
+                b11.ReorderPoint = 3;
+                b11.CopiesOnHand = 8;
                 b11.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b11);
 
@@ -185,8 +185,8 @@ namespace Team32_Project.Seeding
                 b12.Description = "The worlds of gossip, theater and hedge funds have one address in common.";
                 b12.Price = 25.95m;
                 b12.Cost = 17.65m;
-                b12.ReorderPoint = 1m;
-                b12.CopiesOnHand = 2m;
+                b12.ReorderPoint = 1;
+                b12.CopiesOnHand = 2;
                 b12.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b12);
 
@@ -199,8 +199,8 @@ namespace Team32_Project.Seeding
                 b13.Description = "A policman, a fugitive and their families persevere in the turbulence of Boston at the end of World War I.";
                 b13.Price = 27.95m;
                 b13.Cost = 6.99m;
-                b13.ReorderPoint = 6m;
-                b13.CopiesOnHand = 11m;
+                b13.ReorderPoint = 6;
+                b13.CopiesOnHand = 11;
                 b13.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b13);
 
@@ -213,8 +213,8 @@ namespace Team32_Project.Seeding
                 b14.Description = "A pregnant woman shows up in Cedar Cove on Christmas Eve and goes into labor in a room above a stable.";
                 b14.Price = 16.95m;
                 b14.Cost = 4.75m;
-                b14.ReorderPoint = 4m;
-                b14.CopiesOnHand = 6m;
+                b14.ReorderPoint = 4;
+                b14.CopiesOnHand = 6;
                 b14.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b14);
 
@@ -227,8 +227,8 @@ namespace Team32_Project.Seeding
                 b15.Description = "In Book 2 of the Transitions fantasy series, Drizzt returns to Luskan, a city dominated by dangerous pirates.";
                 b15.Price = 27.95m;
                 b15.Cost = 14.25m;
-                b15.ReorderPoint = 5m;
-                b15.CopiesOnHand = 6m;
+                b15.ReorderPoint = 5;
+                b15.CopiesOnHand = 6;
                 b15.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b15);
 
@@ -241,8 +241,8 @@ namespace Team32_Project.Seeding
                 b16.Description = "The psychologist-detective Alex Delaware is called in when women¡¯s bodies keep turning up in a Los Angeles marsh.";
                 b16.Price = 27.00m;
                 b16.Cost = 14.85m;
-                b16.ReorderPoint = 2m;
-                b16.CopiesOnHand = 7m;
+                b16.ReorderPoint = 2;
+                b16.CopiesOnHand = 7;
                 b16.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b16);
 
@@ -255,8 +255,8 @@ namespace Team32_Project.Seeding
                 b17.Description = "The Boston private eye Spenser gets involved when a gunman kidnaps the bride from her wedding on a private island.";
                 b17.Price = 26.95m;
                 b17.Cost = 20.75m;
-                b17.ReorderPoint = 8m;
-                b17.CopiesOnHand = 10m;
+                b17.ReorderPoint = 8;
+                b17.CopiesOnHand = 10;
                 b17.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b17);
 
@@ -269,8 +269,8 @@ namespace Team32_Project.Seeding
                 b18.Description = "Mitch Rapp teams up with a C.I.A. colleague to fight a terrorist cell ¡ª and the politicians who would rein them in.";
                 b18.Price = 27.95m;
                 b18.Cost = 15.09m;
-                b18.ReorderPoint = 2m;
-                b18.CopiesOnHand = 4m;
+                b18.ReorderPoint = 2;
+                b18.CopiesOnHand = 4;
                 b18.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b18);
 
@@ -283,8 +283,8 @@ namespace Team32_Project.Seeding
                 b19.Description = "An American society girl who made a new life as a doctor in World War I France returns to New York.";
                 b19.Price = 27.00m;
                 b19.Cost = 10.53m;
-                b19.ReorderPoint = 1m;
-                b19.CopiesOnHand = 6m;
+                b19.ReorderPoint = 1;
+                b19.CopiesOnHand = 6;
                 b19.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b19);
 
@@ -297,8 +297,8 @@ namespace Team32_Project.Seeding
                 b20.Description = "A boy from Sudan struggles to protect his mother and sister and remain true to his Islamic principles in a Brooklyn housing project.";
                 b20.Price = 26.95m;
                 b20.Cost = 21.29m;
-                b20.ReorderPoint = 3m;
-                b20.CopiesOnHand = 8m;
+                b20.ReorderPoint = 3;
+                b20.CopiesOnHand = 8;
                 b20.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b20);
 
@@ -311,8 +311,8 @@ namespace Team32_Project.Seeding
                 b21.Description = "The forensic pathologist Kay Scarpetta takes an assignment in New York City.";
                 b21.Price = 27.95m;
                 b21.Cost = 13.14m;
-                b21.ReorderPoint = 4m;
-                b21.CopiesOnHand = 9m;
+                b21.ReorderPoint = 4;
+                b21.CopiesOnHand = 9;
                 b21.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b21);
 
@@ -325,8 +325,8 @@ namespace Team32_Project.Seeding
                 b22.Description = "A Russian defector becomes a counterspy.";
                 b22.Price = 26.95m;
                 b22.Cost = 11.86m;
-                b22.ReorderPoint = 7m;
-                b22.CopiesOnHand = 11m;
+                b22.ReorderPoint = 7;
+                b22.CopiesOnHand = 11;
                 b22.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b22);
 
@@ -339,8 +339,8 @@ namespace Team32_Project.Seeding
                 b23.Description = "The caterer Goldy Schulz tries to outwit a killer on the grounds of an Aspen spa.";
                 b23.Price = 25.99m;
                 b23.Cost = 22.09m;
-                b23.ReorderPoint = 1m;
-                b23.CopiesOnHand = 5m;
+                b23.ReorderPoint = 1;
+                b23.CopiesOnHand = 5;
                 b23.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b23);
 
@@ -353,8 +353,8 @@ namespace Team32_Project.Seeding
                 b24.Description = "Book 11 of the Dresden Files series about a wizard detective in Chicago.";
                 b24.Price = 25.95m;
                 b24.Cost = 9.34m;
-                b24.ReorderPoint = 3m;
-                b24.CopiesOnHand = 6m;
+                b24.ReorderPoint = 3;
+                b24.CopiesOnHand = 6;
                 b24.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b24);
 
@@ -367,8 +367,8 @@ namespace Team32_Project.Seeding
                 b25.Description = "Off duty and on vacation in Big Bend National Park, Anna Pigeon rescues a baby and is drawn into cross-border intrigue.";
                 b25.Price = 25.95m;
                 b25.Cost = 3.11m;
-                b25.ReorderPoint = 3m;
-                b25.CopiesOnHand = 8m;
+                b25.ReorderPoint = 3;
+                b25.CopiesOnHand = 8;
                 b25.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b25);
 
@@ -381,8 +381,8 @@ namespace Team32_Project.Seeding
                 b26.Description = "More stories of life and love from a Seattle knitting class.";
                 b26.Price = 24.95m;
                 b26.Cost = 7.24m;
-                b26.ReorderPoint = 2m;
-                b26.CopiesOnHand = 7m;
+                b26.ReorderPoint = 2;
+                b26.CopiesOnHand = 7;
                 b26.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b26);
 
@@ -395,8 +395,8 @@ namespace Team32_Project.Seeding
                 b27.Description = "Sookie Stackhouse searches for the killer of a werepanther.";
                 b27.Price = 25.95m;
                 b27.Cost = 24.65m;
-                b27.ReorderPoint = 5m;
-                b27.CopiesOnHand = 10m;
+                b27.ReorderPoint = 5;
+                b27.CopiesOnHand = 10;
                 b27.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b27);
 
@@ -409,8 +409,8 @@ namespace Team32_Project.Seeding
                 b28.Description = "An unsophisticated young Irishwoman leaves her home for New York in the 1950s. Originally published in 2009 and the basis of the 2015 movie.";
                 b28.Price = 18.95m;
                 b28.Cost = 3.60m;
-                b28.ReorderPoint = 1m;
-                b28.CopiesOnHand = 1m;
+                b28.ReorderPoint = 1;
+                b28.CopiesOnHand = 1;
                 b28.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b28);
 
@@ -423,8 +423,8 @@ namespace Team32_Project.Seeding
                 b29.Description = "A teenager searches for his inexplicably vanished twin sister.";
                 b29.Price = 24.95m;
                 b29.Cost = 15.72m;
-                b29.ReorderPoint = 2m;
-                b29.CopiesOnHand = 5m;
+                b29.ReorderPoint = 2;
+                b29.CopiesOnHand = 5;
                 b29.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b29);
 
@@ -437,8 +437,8 @@ namespace Team32_Project.Seeding
                 b30.Description = "A woman¡®s secret makes it hard for her to accept her stepbrother¡®s love.";
                 b30.Price = 24.95m;
                 b30.Cost = 21.46m;
-                b30.ReorderPoint = 4m;
-                b30.CopiesOnHand = 4m;
+                b30.ReorderPoint = 4;
+                b30.CopiesOnHand = 4;
                 b30.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b30);
 
@@ -451,8 +451,8 @@ namespace Team32_Project.Seeding
                 b31.Description = "Two Chinese sisters in the 1930s are sold as wives to men from California, and leave their war-torn country to join them.";
                 b31.Price = 25.00m;
                 b31.Cost = 2.50m;
-                b31.ReorderPoint = 4m;
-                b31.CopiesOnHand = 4m;
+                b31.ReorderPoint = 4;
+                b31.CopiesOnHand = 4;
                 b31.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b31);
 
@@ -465,8 +465,8 @@ namespace Team32_Project.Seeding
                 b32.Description = "Investigating some killings in Las Vegas, the vampire hunter Anita Blake must contend with the power of the weretigers.";
                 b32.Price = 26.95m;
                 b32.Cost = 2.70m;
-                b32.ReorderPoint = 8m;
-                b32.CopiesOnHand = 9m;
+                b32.ReorderPoint = 8;
+                b32.CopiesOnHand = 9;
                 b32.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b32);
 
@@ -479,8 +479,8 @@ namespace Team32_Project.Seeding
                 b33.Description = "A California kinesics expert pursues a killer who stalks victims using information they¡¯ve posted online.";
                 b33.Price = 26.95m;
                 b33.Cost = 7.82m;
-                b33.ReorderPoint = 8m;
-                b33.CopiesOnHand = 13m;
+                b33.ReorderPoint = 8;
+                b33.CopiesOnHand = 13;
                 b33.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b33);
 
@@ -493,8 +493,8 @@ namespace Team32_Project.Seeding
                 b34.Description = "The bounty hunter Stephanie Plum hunts a celebrity chef¡¯s killer.";
                 b34.Price = 25.99m;
                 b34.Cost = 13.25m;
-                b34.ReorderPoint = 4m;
-                b34.CopiesOnHand = 7m;
+                b34.ReorderPoint = 4;
+                b34.CopiesOnHand = 7;
                 b34.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b34);
 
@@ -507,8 +507,8 @@ namespace Team32_Project.Seeding
                 b35.Description = "A recent college graduate returns to her family¡¯s home on an island in the South Carolina Lowcountry and wrestles with tragedy and betrayal in the company of her appealing relatives.";
                 b35.Price = 25.99m;
                 b35.Cost = 13.25m;
-                b35.ReorderPoint = 8m;
-                b35.CopiesOnHand = 13m;
+                b35.ReorderPoint = 8;
+                b35.CopiesOnHand = 13;
                 b35.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b35);
 
@@ -521,8 +521,8 @@ namespace Team32_Project.Seeding
                 b36.Description = "A Nantucket couple drowns, raising questions and precipitating conflicts among their group of friends.";
                 b36.Price = 24.99m;
                 b36.Cost = 16.99m;
-                b36.ReorderPoint = 2m;
-                b36.CopiesOnHand = 7m;
+                b36.ReorderPoint = 2;
+                b36.CopiesOnHand = 7;
                 b36.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b36);
 
@@ -535,8 +535,8 @@ namespace Team32_Project.Seeding
                 b37.Description = "A Texas sheriff investigates a mass murder of illegal aliens and tries to find the young Iraq war veteran who may have been involved ¡ª before the F.B.I. can.";
                 b37.Price = 25.99m;
                 b37.Cost = 21.05m;
-                b37.ReorderPoint = 2m;
-                b37.CopiesOnHand = 6m;
+                b37.ReorderPoint = 2;
+                b37.CopiesOnHand = 6;
                 b37.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b37);
 
@@ -549,8 +549,8 @@ namespace Team32_Project.Seeding
                 b38.Description = "Dr. Sara Linton works with agents of the Georgia Bureau of Investigation to stop a killer who tortures his victims.";
                 b38.Price = 26.00m;
                 b38.Cost = 7.28m;
-                b38.ReorderPoint = 2m;
-                b38.CopiesOnHand = 4m;
+                b38.ReorderPoint = 2;
+                b38.CopiesOnHand = 4;
                 b38.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b38);
 
@@ -563,8 +563,8 @@ namespace Team32_Project.Seeding
                 b39.Description = "The lawyer Paul Madriani unravels a mystery involving gold coins, the C.I.A., and a weapon forgotten since the Cuban missile crisis.";
                 b39.Price = 26.99m;
                 b39.Cost = 18.62m;
-                b39.ReorderPoint = 2m;
-                b39.CopiesOnHand = 6m;
+                b39.ReorderPoint = 2;
+                b39.CopiesOnHand = 6;
                 b39.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b39);
 
@@ -577,8 +577,8 @@ namespace Team32_Project.Seeding
                 b40.Description = "MacKlaya finds herself under the erotic spell of a Fae master.";
                 b40.Price = 26.00m;
                 b40.Cost = 21.06m;
-                b40.ReorderPoint = 6m;
-                b40.CopiesOnHand = 10m;
+                b40.ReorderPoint = 6;
+                b40.CopiesOnHand = 10;
                 b40.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b40);
 
@@ -591,8 +591,8 @@ namespace Team32_Project.Seeding
                 b41.Description = "Gideon, an international assassin, travels to Argentina in pursuit of a dangerous assignment.";
                 b41.Price = 26.95m;
                 b41.Cost = 14.55m;
-                b41.ReorderPoint = 3m;
-                b41.CopiesOnHand = 3m;
+                b41.ReorderPoint = 3;
+                b41.CopiesOnHand = 3;
                 b41.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b41);
 
@@ -605,8 +605,8 @@ namespace Team32_Project.Seeding
                 b42.Description = "A serial killer who arranges victims in artful poses challenges the Miami Police Department and its blood splatter analyst, Dexter.";
                 b42.Price = 25.00m;
                 b42.Cost = 2.75m;
-                b42.ReorderPoint = 9m;
-                b42.CopiesOnHand = 13m;
+                b42.ReorderPoint = 9;
+                b42.CopiesOnHand = 13;
                 b42.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b42);
 
@@ -619,8 +619,8 @@ namespace Team32_Project.Seeding
                 b43.Description = "Rich women are turning up dead, and the Boston P.I. Spenser investigates.";
                 b43.Price = 26.95m;
                 b43.Cost = 7.01m;
-                b43.ReorderPoint = 8m;
-                b43.CopiesOnHand = 9m;
+                b43.ReorderPoint = 8;
+                b43.CopiesOnHand = 9;
                 b43.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b43);
 
@@ -633,8 +633,8 @@ namespace Team32_Project.Seeding
                 b44.Description = "In this Discworld fantasy, the benevolent tyrant of Ankh-Morpork suggests that Unseen University put together a football team.";
                 b44.Price = 25.99m;
                 b44.Cost = 3.12m;
-                b44.ReorderPoint = 9m;
-                b44.CopiesOnHand = 14m;
+                b44.ReorderPoint = 9;
+                b44.CopiesOnHand = 14;
                 b44.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b44);
 
@@ -647,8 +647,8 @@ namespace Team32_Project.Seeding
                 b45.Description = "The counterterrorism operative Mitch Rapp must teach politicians about national security following a new Qaeda attack.";
                 b45.Price = 27.99m;
                 b45.Cost = 5.04m;
-                b45.ReorderPoint = 4m;
-                b45.CopiesOnHand = 4m;
+                b45.ReorderPoint = 4;
+                b45.CopiesOnHand = 4;
                 b45.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b45);
 
@@ -661,8 +661,8 @@ namespace Team32_Project.Seeding
                 b46.Description = "The final volume of a trilogy of novels about World War II focuses on the final years of the war, including the Battle of the Bulge and the American sweep through Germany.";
                 b46.Price = 28.00m;
                 b46.Cost = 20.72m;
-                b46.ReorderPoint = 1m;
-                b46.CopiesOnHand = 3m;
+                b46.ReorderPoint = 1;
+                b46.CopiesOnHand = 3;
                 b46.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b46);
 
@@ -675,8 +675,8 @@ namespace Team32_Project.Seeding
                 b47.Description = "Stories set in rural Mississippi.";
                 b47.Price = 24.00m;
                 b47.Cost = 14.88m;
-                b47.ReorderPoint = 10m;
-                b47.CopiesOnHand = 12m;
+                b47.ReorderPoint = 10;
+                b47.CopiesOnHand = 12;
                 b47.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b47);
 
@@ -689,8 +689,8 @@ namespace Team32_Project.Seeding
                 b48.Description = "A fifth-grader in 1964 gets ready for Christmas.";
                 b48.Price = 15.00m;
                 b48.Cost = 13.95m;
-                b48.ReorderPoint = 3m;
-                b48.CopiesOnHand = 3m;
+                b48.ReorderPoint = 3;
+                b48.CopiesOnHand = 3;
                 b48.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b48);
 
@@ -703,8 +703,8 @@ namespace Team32_Project.Seeding
                 b49.Description = "With their survival at stake, Alerans prepare for a final battle in the sixth book of the Alera fantasy cycle.";
                 b49.Price = 25.95m;
                 b49.Cost = 13.23m;
-                b49.ReorderPoint = 1m;
-                b49.CopiesOnHand = 4m;
+                b49.ReorderPoint = 1;
+                b49.CopiesOnHand = 4;
                 b49.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b49);
 
@@ -717,8 +717,8 @@ namespace Team32_Project.Seeding
                 b50.Description = "A Louisiana veterinarian discovers a wrecked fishing trawler filled with genetically altered animals.";
                 b50.Price = 27.99m;
                 b50.Cost = 25.75m;
-                b50.ReorderPoint = 1m;
-                b50.CopiesOnHand = 1m;
+                b50.ReorderPoint = 1;
+                b50.CopiesOnHand = 1;
                 b50.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b50);
 
@@ -731,8 +731,8 @@ namespace Team32_Project.Seeding
                 b51.Description = "An F.B.I.investigator and a teacher track a series of murders in California in 1985.";
                 b51.Price = 26.95m;
                 b51.Cost = 9.70m;
-                b51.ReorderPoint = 4m;
-                b51.CopiesOnHand = 9m;
+                b51.ReorderPoint = 4;
+                b51.CopiesOnHand = 9;
                 b51.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b51);
 
@@ -745,8 +745,8 @@ namespace Team32_Project.Seeding
                 b52.Description = "Three generations in a small East Texas town.";
                 b52.Price = 24.99m;
                 b52.Cost = 20.99m;
-                b52.ReorderPoint = 8m;
-                b52.CopiesOnHand = 12m;
+                b52.ReorderPoint = 8;
+                b52.CopiesOnHand = 12;
                 b52.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b52);
 
@@ -759,8 +759,8 @@ namespace Team32_Project.Seeding
                 b53.Description = "The F.B.I.agent Noah Bishop and his special crimes unit  pursue a brutal enemy.";
                 b53.Price = 26.00m;
                 b53.Cost = 5.20m;
-                b53.ReorderPoint = 7m;
-                b53.CopiesOnHand = 7m;
+                b53.ReorderPoint = 7;
+                b53.CopiesOnHand = 7;
                 b53.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b53);
 
@@ -773,8 +773,8 @@ namespace Team32_Project.Seeding
                 b54.Description = "Who is killing members of a secret unit that interrogated terrorists? The C.I.A.agent John Wells is on the case.";
                 b54.Price = 25.95m;
                 b54.Cost = 3.11m;
-                b54.ReorderPoint = 5m;
-                b54.CopiesOnHand = 5m;
+                b54.ReorderPoint = 5;
+                b54.CopiesOnHand = 5;
                 b54.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b54);
 
@@ -787,8 +787,8 @@ namespace Team32_Project.Seeding
                 b55.Description = "Hollywood murder, three beautiful 20 - something high school friends, a hot New York club owner.";
                 b55.Price = 26.99m;
                 b55.Cost = 17.54m;
-                b55.ReorderPoint = 1m;
-                b55.CopiesOnHand = 1m;
+                b55.ReorderPoint = 1;
+                b55.CopiesOnHand = 1;
                 b55.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b55);
 
@@ -801,8 +801,8 @@ namespace Team32_Project.Seeding
                 b56.Description = "Murderers want Doc Ford to help them dive for the remains of a wrecked plane supposedly laden with Cuban gold.";
                 b56.Price = 25.95m;
                 b56.Cost = 5.45m;
-                b56.ReorderPoint = 1m;
-                b56.CopiesOnHand = 5m;
+                b56.ReorderPoint = 1;
+                b56.CopiesOnHand = 5;
                 b56.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b56);
 
@@ -815,8 +815,8 @@ namespace Team32_Project.Seeding
                 b57.Description = "A woman takes over her twin sister¡¯s life.";
                 b57.Price = 26.99m;
                 b57.Cost = 21.86m;
-                b57.ReorderPoint = 6m;
-                b57.CopiesOnHand = 10m;
+                b57.ReorderPoint = 6;
+                b57.CopiesOnHand = 10;
                 b57.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b57);
 
@@ -829,8 +829,8 @@ namespace Team32_Project.Seeding
                 b58.Description = "Mysteries and magic in a quirky North Carolina town.";
                 b58.Price = 25.00m;
                 b58.Cost = 11.25m;
-                b58.ReorderPoint = 3m;
-                b58.CopiesOnHand = 6m;
+                b58.ReorderPoint = 3;
+                b58.CopiesOnHand = 6;
                 b58.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b58);
 
@@ -843,8 +843,8 @@ namespace Team32_Project.Seeding
                 b59.Description = "Students are dying at an Oregon boarding school for wayward kids, and the concerned new teacher may be the next target.";
                 b59.Price = 25.00m;
                 b59.Cost = 4.25m;
-                b59.ReorderPoint = 3m;
-                b59.CopiesOnHand = 6m;
+                b59.ReorderPoint = 3;
+                b59.CopiesOnHand = 6;
                 b59.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b59);
 
@@ -857,8 +857,8 @@ namespace Team32_Project.Seeding
                 b60.Description = "In the 13th mystery in this series, the suspicious disappearance of a neighbor interrupts a romantic weekend on Cape Cod for the P.I.Regan Reilly and her husband.";
                 b60.Price = 25.00m;
                 b60.Cost = 18.00m;
-                b60.ReorderPoint = 8m;
-                b60.CopiesOnHand = 11m;
+                b60.ReorderPoint = 8;
+                b60.CopiesOnHand = 11;
                 b60.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b60);
 
@@ -871,8 +871,8 @@ namespace Team32_Project.Seeding
                 b61.Description = "A close friend from the investigator Ty Hauck's past has been brutally murdered, and he will risk everything he loves to avenge her death.";
                 b61.Price = 22.00m;
                 b61.Cost = 9.46m;
-                b61.ReorderPoint = 8m;
-                b61.CopiesOnHand = 11m;
+                b61.ReorderPoint = 8;
+                b61.CopiesOnHand = 11;
                 b61.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b61);
 
@@ -885,8 +885,8 @@ namespace Team32_Project.Seeding
                 b62.Description = "With the United States unleashing a missile-launching satellite that can strike anywhere in seconds, China and Russia respond swiftly and brutally.";
                 b62.Price = 27.95m;
                 b62.Cost = 22.64m;
-                b62.ReorderPoint = 7m;
-                b62.CopiesOnHand = 7m;
+                b62.ReorderPoint = 7;
+                b62.CopiesOnHand = 7;
                 b62.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b62);
 
@@ -899,8 +899,8 @@ namespace Team32_Project.Seeding
                 b63.Description = "The lives of two women ¡ª one married to a pediatric plastic surgeon, the other a lawyer and single mother ¡ª converge after an accident involving the lawyer¡¯s son.";
                 b63.Price = 26.99m;
                 b63.Cost = 6.21m;
-                b63.ReorderPoint = 3m;
-                b63.CopiesOnHand = 7m;
+                b63.ReorderPoint = 3;
+                b63.CopiesOnHand = 7;
                 b63.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b63);
 
@@ -913,8 +913,8 @@ namespace Team32_Project.Seeding
                 b64.Description = "To avoid falling into a ruthless nobleman's trap, an heiress enters into a risky, intimate charade with a man she was once bound to wed.";
                 b64.Price = 25.00m;
                 b64.Cost = 18.25m;
-                b64.ReorderPoint = 9m;
-                b64.CopiesOnHand = 9m;
+                b64.ReorderPoint = 9;
+                b64.CopiesOnHand = 9;
                 b64.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b64);
 
@@ -927,8 +927,8 @@ namespace Team32_Project.Seeding
                 b65.Description = "Honor Harrington defends the Star Kingdom of Manticore as it is besieged by many enemies.";
                 b65.Price = 27.00m;
                 b65.Cost = 6.75m;
-                b65.ReorderPoint = 1m;
-                b65.CopiesOnHand = 3m;
+                b65.ReorderPoint = 1;
+                b65.CopiesOnHand = 3;
                 b65.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b65);
 
@@ -941,8 +941,8 @@ namespace Team32_Project.Seeding
                 b66.Description = "The bounty hunter Stephanie Plum comes to the aid of a cousin with gambling debts.";
                 b66.Price = 27.99m;
                 b66.Cost = 12.32m;
-                b66.ReorderPoint = 1m;
-                b66.CopiesOnHand = 2m;
+                b66.ReorderPoint = 1;
+                b66.CopiesOnHand = 2;
                 b66.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b66);
 
@@ -955,8 +955,8 @@ namespace Team32_Project.Seeding
                 b67.Description = "Forbidden love in Edo - era Japan.";
                 b67.Price = 26.00m;
                 b67.Cost = 9.62m;
-                b67.ReorderPoint = 10m;
-                b67.CopiesOnHand = 15m;
+                b67.ReorderPoint = 10;
+                b67.CopiesOnHand = 15;
                 b67.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b67);
 
@@ -969,8 +969,8 @@ namespace Team32_Project.Seeding
                 b68.Description = "The only survivor of a serial killer has found peace in the Pacific Northwest, but her life is shaken by the appearance of a new man and a copycat murderer.";
                 b68.Price = 26.95m;
                 b68.Cost = 8.62m;
-                b68.ReorderPoint = 4m;
-                b68.CopiesOnHand = 9m;
+                b68.ReorderPoint = 4;
+                b68.CopiesOnHand = 9;
                 b68.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b68);
 
@@ -983,8 +983,8 @@ namespace Team32_Project.Seeding
                 b69.Description = "Fading celebrities who appear on Hailey Dean¡¯s TV show are being murdered.";
                 b69.Price = 25.99m;
                 b69.Cost = 5.98m;
-                b69.ReorderPoint = 1m;
-                b69.CopiesOnHand = 6m;
+                b69.ReorderPoint = 1;
+                b69.CopiesOnHand = 6;
                 b69.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b69);
 
@@ -997,8 +997,8 @@ namespace Team32_Project.Seeding
                 b70.Description = "Book 19 of the Dark - Hunter paranormal series.";
                 b70.Price = 24.99m;
                 b70.Cost = 5.25m;
-                b70.ReorderPoint = 10m;
-                b70.CopiesOnHand = 12m;
+                b70.ReorderPoint = 10;
+                b70.CopiesOnHand = 12;
                 b70.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b70);
 
@@ -1011,8 +1011,8 @@ namespace Team32_Project.Seeding
                 b71.Description = "A war erupts between Old and New World vampires. Book 2 of the Strain trilogy.";
                 b71.Price = 26.99m;
                 b71.Cost = 13.23m;
-                b71.ReorderPoint = 7m;
-                b71.CopiesOnHand = 7m;
+                b71.ReorderPoint = 7;
+                b71.CopiesOnHand = 7;
                 b71.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b71);
 
@@ -1025,8 +1025,8 @@ namespace Team32_Project.Seeding
                 b72.Description = "A writer¡¯s stunning family discovery leads to Paris, the French aristocracy and a mysterious Sioux ancestor.";
                 b72.Price = 28.00m;
                 b72.Cost = 6.44m;
-                b72.ReorderPoint = 1m;
-                b72.CopiesOnHand = 3m;
+                b72.ReorderPoint = 1;
+                b72.CopiesOnHand = 3;
                 b72.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b72);
 
@@ -1039,8 +1039,8 @@ namespace Team32_Project.Seeding
                 b73.Description = "Working in the toy section of a department store, Emily Merkle is called upon to engineer some Christmas miracles.";
                 b73.Price = 16.95m;
                 b73.Cost = 8.31m;
-                b73.ReorderPoint = 4m;
-                b73.CopiesOnHand = 6m;
+                b73.ReorderPoint = 4;
+                b73.CopiesOnHand = 6;
                 b73.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b73);
 
@@ -1053,8 +1053,8 @@ namespace Team32_Project.Seeding
                 b74.Description = "On Christmas Day, a woman with family problems meets a handsome, mysterious stranger.";
                 b74.Price = 19.99m;
                 b74.Cost = 10.79m;
-                b74.ReorderPoint = 1m;
-                b74.CopiesOnHand = 2m;
+                b74.ReorderPoint = 1;
+                b74.CopiesOnHand = 2;
                 b74.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b74);
 
@@ -1067,8 +1067,8 @@ namespace Team32_Project.Seeding
                 b75.Description = "Dirk Pitt seeks a tie between a trove of ancient Roman artifacts and a series of mosque explosions.";
                 b75.Price = 27.95m;
                 b75.Cost = 20.12m;
-                b75.ReorderPoint = 4m;
-                b75.CopiesOnHand = 5m;
+                b75.ReorderPoint = 4;
+                b75.CopiesOnHand = 5;
                 b75.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b75);
 
@@ -1081,8 +1081,8 @@ namespace Team32_Project.Seeding
                 b76.Description = "A young, beautiful and ambitious woman ruthlessly ascends the heights of the Manhattan art world.";
                 b76.Price = 26.99m;
                 b76.Cost = 8.91m;
-                b76.ReorderPoint = 6m;
-                b76.CopiesOnHand = 6m;
+                b76.ReorderPoint = 6;
+                b76.CopiesOnHand = 6;
                 b76.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b76);
 
@@ -1095,8 +1095,8 @@ namespace Team32_Project.Seeding
                 b77.Description = "Many characters from Clancy¡¯s previous novels make an appearance as an intelligence group tracks a vicious terrorist called the Emir.";
                 b77.Price = 28.95m;
                 b77.Cost = 24.03m;
-                b77.ReorderPoint = 8m;
-                b77.CopiesOnHand = 8m;
+                b77.ReorderPoint = 8;
+                b77.CopiesOnHand = 8;
                 b77.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b77);
 
@@ -1109,8 +1109,8 @@ namespace Team32_Project.Seeding
                 b78.Description = "The San Francisco detective Abe Glitsky faces a scion of wealth who¡¯s seeking revenge against those who sent him to prison a decade ago.";
                 b78.Price = 26.95m;
                 b78.Cost = 24.26m;
-                b78.ReorderPoint = 7m;
-                b78.CopiesOnHand = 8m;
+                b78.ReorderPoint = 7;
+                b78.CopiesOnHand = 8;
                 b78.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b78);
 
@@ -1123,8 +1123,8 @@ namespace Team32_Project.Seeding
                 b79.Description = "An archivist discovers a book that once belonged to George Washington and conceals a deadly secret.";
                 b79.Price = 26.99m;
                 b79.Cost = 11.61m;
-                b79.ReorderPoint = 8m;
-                b79.CopiesOnHand = 11m;
+                b79.ReorderPoint = 8;
+                b79.CopiesOnHand = 11;
                 b79.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b79);
 
@@ -1137,8 +1137,8 @@ namespace Team32_Project.Seeding
                 b80.Description = "Hunting for her sister¡¯s murderer, MacKayla Lane is caught up in the struggle between humans and the Fae.";
                 b80.Price = 26.00m;
                 b80.Cost = 13.78m;
-                b80.ReorderPoint = 9m;
-                b80.CopiesOnHand = 13m;
+                b80.ReorderPoint = 9;
+                b80.CopiesOnHand = 13;
                 b80.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b80);
 
@@ -1151,8 +1151,8 @@ namespace Team32_Project.Seeding
                 b81.Description = "In a small town in Texas, characters from Phillips¡¯s earlier novels reappear as a woman persuades a friend to call off her wedding to the town¡¯s popular mayor.";
                 b81.Price = 25.99m;
                 b81.Cost = 11.44m;
-                b81.ReorderPoint = 3m;
-                b81.CopiesOnHand = 4m;
+                b81.ReorderPoint = 3;
+                b81.CopiesOnHand = 4;
                 b81.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b81);
 
@@ -1165,8 +1165,8 @@ namespace Team32_Project.Seeding
                 b82.Description = "The recovery of a lost ancient manuscript in a library at Oxford sets a fantastical underworld stirring.";
                 b82.Price = 28.95m;
                 b82.Cost = 3.76m;
-                b82.ReorderPoint = 7m;
-                b82.CopiesOnHand = 8m;
+                b82.ReorderPoint = 7;
+                b82.CopiesOnHand = 8;
                 b82.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b82);
 
@@ -1179,8 +1179,8 @@ namespace Team32_Project.Seeding
                 b83.Description = "Gideon Crew avenges his father¡¯s death and is sent on a mission by a government contractor.";
                 b83.Price = 26.99m;
                 b83.Cost = 19.70m;
-                b83.ReorderPoint = 9m;
-                b83.CopiesOnHand = 11m;
+                b83.ReorderPoint = 9;
+                b83.CopiesOnHand = 11;
                 b83.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b83);
 
@@ -1193,8 +1193,8 @@ namespace Team32_Project.Seeding
                 b84.Description = "Eve Dallas and her partner, Peabody, investigate a grocer¡¯s murder.";
                 b84.Price = 26.95m;
                 b84.Cost = 5.93m;
-                b84.ReorderPoint = 5m;
-                b84.CopiesOnHand = 8m;
+                b84.ReorderPoint = 5;
+                b84.CopiesOnHand = 8;
                 b84.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b84);
 
@@ -1207,8 +1207,8 @@ namespace Team32_Project.Seeding
                 b85.Description = "Myron Bolitar¡¯s search for a missing rock star leads to questions about his own missing brother.";
                 b85.Price = 27.95m;
                 b85.Cost = 13.98m;
-                b85.ReorderPoint = 6m;
-                b85.CopiesOnHand = 9m;
+                b85.ReorderPoint = 6;
+                b85.CopiesOnHand = 9;
                 b85.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b85);
 
@@ -1221,8 +1221,8 @@ namespace Team32_Project.Seeding
                 b86.Description = "In the summer of 1932, Maisie Dobbs¡¯s first assignment for the British secret service takes her undercover to Cambridge as a professor.";
                 b86.Price = 25.99m;
                 b86.Cost = 12.22m;
-                b86.ReorderPoint = 7m;
-                b86.CopiesOnHand = 7m;
+                b86.ReorderPoint = 7;
+                b86.CopiesOnHand = 7;
                 b86.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b86);
 
@@ -1235,8 +1235,8 @@ namespace Team32_Project.Seeding
                 b87.Description = "The caterer and sleuth Goldy Schulz tries to help a friend whose rental house has been destroyed by arson.";
                 b87.Price = 26.99m;
                 b87.Cost = 3.78m;
-                b87.ReorderPoint = 2m;
-                b87.CopiesOnHand = 4m;
+                b87.ReorderPoint = 2;
+                b87.CopiesOnHand = 4;
                 b87.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b87);
 
@@ -1249,8 +1249,8 @@ namespace Team32_Project.Seeding
                 b88.Description = "A woman haunted by the disappearance of her young son discovers that someone has stolen her identity.";
                 b88.Price = 25.99m;
                 b88.Cost = 3.90m;
-                b88.ReorderPoint = 9m;
-                b88.CopiesOnHand = 14m;
+                b88.ReorderPoint = 9;
+                b88.CopiesOnHand = 14;
                 b88.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b88);
 
@@ -1263,8 +1263,8 @@ namespace Team32_Project.Seeding
                 b89.Description = "The defense lawyer Mickey Haller represents a woman facing home foreclosure who is accused of killing a banker.";
                 b89.Price = 27.99m;
                 b89.Cost = 6.16m;
-                b89.ReorderPoint = 4m;
-                b89.CopiesOnHand = 4m;
+                b89.ReorderPoint = 4;
+                b89.CopiesOnHand = 4;
                 b89.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b89);
 
@@ -1277,8 +1277,8 @@ namespace Team32_Project.Seeding
                 b90.Description = "A mother¡¯s action during a school emergency causes an uproar in a Philadelphia suburb.";
                 b90.Price = 27.99m;
                 b90.Cost = 11.20m;
-                b90.ReorderPoint = 6m;
-                b90.CopiesOnHand = 10m;
+                b90.ReorderPoint = 6;
+                b90.CopiesOnHand = 10;
                 b90.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b90);
 
@@ -1291,8 +1291,8 @@ namespace Team32_Project.Seeding
                 b91.Description = "In this Arcane Society novel set in Victorian London, two paranormal talents must find a murderer before they become the next victims.";
                 b91.Price = 25.95m;
                 b91.Cost = 23.10m;
-                b91.ReorderPoint = 6m;
-                b91.CopiesOnHand = 9m;
+                b91.ReorderPoint = 6;
+                b91.CopiesOnHand = 9;
                 b91.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b91);
 
@@ -1305,8 +1305,8 @@ namespace Team32_Project.Seeding
                 b92.Description = "The lawyer for an alleged serial killer is murdered, and two former Secret Service agents are on the case.";
                 b92.Price = 27.99m;
                 b92.Cost = 20.15m;
-                b92.ReorderPoint = 4m;
-                b92.CopiesOnHand = 5m;
+                b92.ReorderPoint = 4;
+                b92.CopiesOnHand = 5;
                 b92.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b92);
 
@@ -1319,8 +1319,8 @@ namespace Team32_Project.Seeding
                 b93.Description = "A private security agent battles pirates who have kidnapped a woman from a yacht in the Indian Ocean.";
                 b93.Price = 27.99m;
                 b93.Cost = 16.23m;
-                b93.ReorderPoint = 8m;
-                b93.CopiesOnHand = 10m;
+                b93.ReorderPoint = 8;
+                b93.CopiesOnHand = 10;
                 b93.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b93);
 
@@ -1333,8 +1333,8 @@ namespace Team32_Project.Seeding
                 b94.Description ="The former government operative Cotton Malone foils an assassination attempt on the president and finds himself at dangerous odds with a secret society.";
                 b94.Price = 26.00m;
                 b94.Cost = 18.20m;
-                b94.ReorderPoint = 8m;
-                b94.CopiesOnHand = 11m;
+                b94.ReorderPoint = 8;
+                b94.CopiesOnHand = 11;
                 b94.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b94);
 
@@ -1347,8 +1347,8 @@ namespace Team32_Project.Seeding
                 b95.Description ="Three friends in their mid-30s spend a month on North Carolina¡¯s Outer Banks.";
                 b95.Price = 25.99m;
                 b95.Cost = 9.62m;
-                b95.ReorderPoint = 9m;
-                b95.CopiesOnHand = 11m;
+                b95.ReorderPoint = 9;
+                b95.CopiesOnHand = 11;
                 b95.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b95);
 
@@ -1361,8 +1361,8 @@ namespace Team32_Project.Seeding
                 b96.Description ="As Christmas nears, a terminally ill man is preparing his family for his death when another tragedy strikes.";
                 b96.Price = 25.99m;
                 b96.Cost = 20.01m;
-                b96.ReorderPoint = 2m;
-                b96.CopiesOnHand = 4m;
+                b96.ReorderPoint = 2;
+                b96.CopiesOnHand = 4;
                 b96.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b96);
 
@@ -1375,8 +1375,8 @@ namespace Team32_Project.Seeding
                 b97.Description ="After a mysterious accident, an amnesiac cannot remember her past or form new memories.";
                 b97.Price = 14.99m;
                 b97.Cost = 6.00m;
-                b97.ReorderPoint = 1m;
-                b97.CopiesOnHand = 5m;
+                b97.ReorderPoint = 1;
+                b97.CopiesOnHand = 5;
                 b97.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b97);
 
@@ -1389,8 +1389,8 @@ namespace Team32_Project.Seeding
                 b98.Description ="Nina Bloom, who years ago changed her identity to save her life, is forced to confront the past and the killer she thought she had escaped.";
                 b98.Price = 27.99m;
                 b98.Cost = 8.40m;
-                b98.ReorderPoint = 1m;
-                b98.CopiesOnHand = 2m;
+                b98.ReorderPoint = 1;
+                b98.CopiesOnHand = 2;
                 b98.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b98);
 
@@ -1403,8 +1403,8 @@ namespace Team32_Project.Seeding
                 b99.Description ="The covert counterterrorism operative Scot Harvath has a plan to stop a terrorist group that wants to take down the United States.";
                 b99.Price = 26.99m;
                 b99.Cost = 5.67m;
-                b99.ReorderPoint = 4m;
-                b99.CopiesOnHand = 8m;
+                b99.ReorderPoint = 4;
+                b99.CopiesOnHand = 8;
                 b99.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b99);
 
@@ -1417,8 +1417,8 @@ namespace Team32_Project.Seeding
                 b100.Description ="Harry Dresden, the wizard detective in Chicago, has been murdered.But that doesn¡¯t stop him when his friends are in danger.";
                 b100.Price = 27.95m;
                 b100.Cost = 12.02m;
-                b100.ReorderPoint = 9m;
-                b100.CopiesOnHand = 13m;
+                b100.ReorderPoint = 9;
+                b100.CopiesOnHand = 13;
                 b100.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b100);
 
@@ -1431,8 +1431,8 @@ namespace Team32_Project.Seeding
                 b101.Description ="Cody Hoyt, a brilliant cop and an alcoholic struggling with two months of sobriety, is determined to find his mentor¡¯s killer.";
                 b101.Price = 25.99m;
                 b101.Cost = 24.69m;
-                b101.ReorderPoint = 4m;
-                b101.CopiesOnHand = 9m;
+                b101.ReorderPoint = 4;
+                b101.CopiesOnHand = 9;
                 b101.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b101);
 
@@ -1445,8 +1445,8 @@ namespace Team32_Project.Seeding
                 b102.Description ="A return to the lives of Richard Rahl and Kahlan Amnell, in a tale of a new threat to their world.";
                 b102.Price = 29.99m;
                 b102.Cost = 17.69m;
-                b102.ReorderPoint = 7m;
-                b102.CopiesOnHand = 12m;
+                b102.ReorderPoint = 7;
+                b102.CopiesOnHand = 12;
                 b102.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b102);
 
@@ -1459,8 +1459,8 @@ namespace Team32_Project.Seeding
                 b103.Description ="With the land on edge, Panterra is destined to confront a menace who seeks to claim the last black staff, and the life of the one who wields it.";
                 b103.Price = 27.00m;
                 b103.Cost = 15.39m;
-                b103.ReorderPoint = 4m;
-                b103.CopiesOnHand = 7m;
+                b103.ReorderPoint = 4;
+                b103.CopiesOnHand = 7;
                 b103.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b103);
 
@@ -1473,8 +1473,8 @@ namespace Team32_Project.Seeding
                 b104.Description ="The island empire of Charis fights to survive.";
                 b104.Price = 27.99m;
                 b104.Cost = 23.79m;
-                b104.ReorderPoint = 7m;
-                b104.CopiesOnHand = 12m;
+                b104.ReorderPoint = 7;
+                b104.CopiesOnHand = 12;
                 b104.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b104);
 
@@ -1487,8 +1487,8 @@ namespace Team32_Project.Seeding
                 b105.Description ="A virus invades a multiplayer online role-playing game and sets off a violent struggle.";
                 b105.Price = 35.00m;
                 b105.Cost = 14.7m;
-                b105.ReorderPoint = 10m;
-                b105.CopiesOnHand = 12m;
+                b105.ReorderPoint = 10;
+                b105.CopiesOnHand = 12;
                 b105.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b105);
 
@@ -1501,8 +1501,8 @@ namespace Team32_Project.Seeding
                 b106.Description ="When a young woman inherits her murdered sister¡¯s troubled twins, her solitary life becomes filled with mystery and action.";
                 b106.Price = 26.00m;
                 b106.Cost = 10.92m;
-                b106.ReorderPoint = 6m;
-                b106.CopiesOnHand = 11m;
+                b106.ReorderPoint = 6;
+                b106.CopiesOnHand = 11;
                 b106.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b106);
 
@@ -1515,8 +1515,8 @@ namespace Team32_Project.Seeding
                 b107.Description ="For Jack Reacher, an elite military police officer, it all started in 1997. A lonely railroad track.A crime scene. A cover-up.";
                 b107.Price = 28.00m;
                 b107.Cost = 8.68m;
-                b107.ReorderPoint = 6m;
-                b107.CopiesOnHand = 11m;
+                b107.ReorderPoint = 6;
+                b107.CopiesOnHand = 11;
                 b107.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b107);
 
@@ -1529,8 +1529,8 @@ namespace Team32_Project.Seeding
                 b108.Description ="The death of the town marshal leaves Blue River, Texas, without a lawman, and Dara Rose Nolan without a husband.Clay McKettrick steps in, and when he and Dara Rose agree to a marriage of convenience, the temporary lawman¡¯s Christmas wish is to make her his permanent wife.";
                 b108.Price = 28.00m;
                 b108.Cost = 15.96m;
-                b108.ReorderPoint = 5m;
-                b108.CopiesOnHand = 10m;
+                b108.ReorderPoint = 5;
+                b108.CopiesOnHand = 10;
                 b108.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b108);
 
@@ -1543,8 +1543,8 @@ namespace Team32_Project.Seeding
                 b109.Description ="The forensic sculptor Eve Duncan learns more about her daughter¡¯s disappearance and the girl¡¯s father¡®s possible involvement.";
                 b109.Price = 27.99m;
                 b109.Cost = 24.07m;
-                b109.ReorderPoint = 9m;
-                b109.CopiesOnHand = 13m;
+                b109.ReorderPoint = 9;
+                b109.CopiesOnHand = 13;
                 b109.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b109);
 
@@ -1557,8 +1557,8 @@ namespace Team32_Project.Seeding
                 b110.Description ="A widow keeps the identity of the new man she is about to marry a secret as her children gather for Christmas.";
                 b110.Price = 25.99m;
                 b110.Cost = 23.65m;
-                b110.ReorderPoint = 2m;
-                b110.CopiesOnHand = 3m;
+                b110.ReorderPoint = 2;
+                b110.CopiesOnHand = 3;
                 b110.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b110);
 
@@ -1571,8 +1571,8 @@ namespace Team32_Project.Seeding
                 b111.Description ="A military investigator uncovers a conspiracy.";
                 b111.Price = 27.99m;
                 b111.Cost = 18.47m;
-                b111.ReorderPoint = 9m;
-                b111.CopiesOnHand = 12m;
+                b111.ReorderPoint = 9;
+                b111.CopiesOnHand = 12;
                 b111.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b111);
 
@@ -1585,8 +1585,8 @@ namespace Team32_Project.Seeding
                 b112.Description ="Jamie Fraser, a paroled Jacobite prisoner, and Lord John Grey collaborate uneasily on a mission to Ireland.";
                 b112.Price = 28.00m;
                 b112.Cost = 24.92m;
-                b112.ReorderPoint = 2m;
-                b112.CopiesOnHand = 6m;
+                b112.ReorderPoint = 2;
+                b112.CopiesOnHand = 6;
                 b112.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b112);
 
@@ -1599,8 +1599,8 @@ namespace Team32_Project.Seeding
                 b113.Description ="A 19th-century tycoon¡¯s mansion has been turned into luxury apartments, but it remains in the grip of evil forces.";
                 b113.Price = 28.00m;
                 b113.Cost = 14.56m;
-                b113.ReorderPoint = 5m;
-                b113.CopiesOnHand = 6m;
+                b113.ReorderPoint = 5;
+                b113.CopiesOnHand = 6;
                 b113.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b113);
 
@@ -1613,8 +1613,8 @@ namespace Team32_Project.Seeding
                 b114.Description ="A former magazine editor attempts to turn her parents¡¯ summer house into a bed-and-breakfast.";
                 b114.Price = 27.99m;
                 b114.Cost = 22.95m;
-                b114.ReorderPoint = 3m;
-                b114.CopiesOnHand = 3m;
+                b114.ReorderPoint = 3;
+                b114.CopiesOnHand = 3;
                 b114.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b114);
 
@@ -1627,8 +1627,8 @@ namespace Team32_Project.Seeding
                 b115.Description ="A San Francisco private investigator discovers chilling facts about his birth family.";
                 b115.Price = 26.95m;
                 b115.Cost = 5.66m;
-                b115.ReorderPoint = 6m;
-                b115.CopiesOnHand = 7m;
+                b115.ReorderPoint = 6;
+                b115.CopiesOnHand = 7;
                 b115.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b115);
 
@@ -1641,8 +1641,8 @@ namespace Team32_Project.Seeding
                 b116.Description ="Amy Radwell, whose psychic talent enables her to understand the paranormal secrets in rare books, becomes the target of a blackmailer.The first book in a new series about rare books and psychic codes.";
                 b116.Price = 25.95m;
                 b116.Cost = 16.09m;
-                b116.ReorderPoint = 5m;
-                b116.CopiesOnHand = 5m;
+                b116.ReorderPoint = 5;
+                b116.CopiesOnHand = 5;
                 b116.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b116);
 
@@ -1655,8 +1655,8 @@ namespace Team32_Project.Seeding
                 b117.Description ="Ali Reynolds seeks justice for an old friend and an unidentified woman, both victims of brutal attacks.";
                 b117.Price = 25.99m;
                 b117.Cost = 20.01m;
-                b117.ReorderPoint = 10m;
-                b117.CopiesOnHand = 13m;
+                b117.ReorderPoint = 10;
+                b117.CopiesOnHand = 13;
                 b117.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b117);
 
@@ -1669,8 +1669,8 @@ namespace Team32_Project.Seeding
                 b118.Description ="A former American operative builds a network to help him resolve crises without torture or civilian casualties.";
                 b118.Price = 27.99m;
                 b118.Cost = 7.28m;
-                b118.ReorderPoint = 9m;
-                b118.CopiesOnHand = 13m;
+                b118.ReorderPoint = 9;
+                b118.CopiesOnHand = 13;
                 b118.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b118);
 
@@ -1683,8 +1683,8 @@ namespace Team32_Project.Seeding
                 b119.Description ="The Los Angeles psychologist-detective Alex Delaware and the detective Milo Sturgis track down a homicidal maniac.";
                 b119.Price = 28.00m;
                 b119.Cost = 16.52m;
-                b119.ReorderPoint = 1m;
-                b119.CopiesOnHand = 5m;
+                b119.ReorderPoint = 1;
+                b119.CopiesOnHand = 5;
                 b119.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b119);
 
@@ -1697,8 +1697,8 @@ namespace Team32_Project.Seeding
                 b120.Description ="A woman in her late 30s marries the man of her dreams and reaches out to his daughters by his previous marriage, but one of them is determined to destroy her.";
                 b120.Price = 25.99m;
                 b120.Cost = 20.27m;
-                b120.ReorderPoint = 4m;
-                b120.CopiesOnHand = 8m;
+                b120.ReorderPoint = 4;
+                b120.CopiesOnHand = 8;
                 b120.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b120);
 
@@ -1711,8 +1711,8 @@ namespace Team32_Project.Seeding
                 b121.Description ="The New York lawyer Stone Barrington becomes involved in the family problems of a billionaire hedge fund manager.";
                 b121.Price = 26.95m;
                 b121.Cost = 16.71m;
-                b121.ReorderPoint = 6m;
-                b121.CopiesOnHand = 8m;
+                b121.ReorderPoint = 6;
+                b121.CopiesOnHand = 8;
                 b121.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b121);
 
@@ -1725,8 +1725,8 @@ namespace Team32_Project.Seeding
                 b122.Description ="In Paris in 1938, an actor stumbles into the clutches of Nazi conspirators who want to exploit his celebrity.";
                 b122.Price = 27.00m;
                 b122.Cost = 19.17m;
-                b122.ReorderPoint = 8m;
-                b122.CopiesOnHand = 11m;
+                b122.ReorderPoint = 8;
+                b122.CopiesOnHand = 11;
                 b122.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b122);
 
@@ -1739,8 +1739,8 @@ namespace Team32_Project.Seeding
                 b123.Description ="An Oxford scholar/witch and a vampire geneticist pursue history, secrets and each other in Elizabethan London.";
                 b123.Price = 28.95m;
                 b123.Cost = 21.13m;
-                b123.ReorderPoint = 10m;
-                b123.CopiesOnHand = 15m;
+                b123.ReorderPoint = 10;
+                b123.CopiesOnHand = 15;
                 b123.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b123);
 
@@ -1753,8 +1753,8 @@ namespace Team32_Project.Seeding
                 b124.Description ="A woman¡¯s successful life is disrupted by the appearance of an 18-year-old girl with a link to her past.";
                 b124.Price = 27.99m;
                 b124.Cost = 8.12m;
-                b124.ReorderPoint = 3m;
-                b124.CopiesOnHand = 7m;
+                b124.ReorderPoint = 3;
+                b124.CopiesOnHand = 7;
                 b124.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b124);
 
@@ -1767,8 +1767,8 @@ namespace Team32_Project.Seeding
                 b125.Description ="Joanna Brady, an Arizona sheriff, must function as both a law officer and a mother when her daughter¡¯s high school principal is murdered.";
                 b125.Price = 25.99m;
                 b125.Cost = 8.84m;
-                b125.ReorderPoint = 10m;
-                b125.CopiesOnHand = 11m;
+                b125.ReorderPoint = 10;
+                b125.CopiesOnHand = 11;
                 b125.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b125);
 
@@ -1781,8 +1781,8 @@ namespace Team32_Project.Seeding
                 b126.Description ="In French¡¯s fourth Dublin murder squad novel, a detective¡¯s investigation of a crime in a seaside town evokes memories of his disturbing childhood there.";
                 b126.Price = 27.95m;
                 b126.Cost = 24.04m;
-                b126.ReorderPoint = 4m;
-                b126.CopiesOnHand = 4m;
+                b126.ReorderPoint = 4;
+                b126.CopiesOnHand = 4;
                 b126.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b126);
 
@@ -1795,8 +1795,8 @@ namespace Team32_Project.Seeding
                 b127.Description ="Odd Thomas, who can communicate with the dead, explores the mysteries of an old estate now owned by a billionaire.";
                 b127.Price = 28.00m;
                 b127.Cost = 14.28m;
-                b127.ReorderPoint = 1m;
-                b127.CopiesOnHand = 1m;
+                b127.ReorderPoint = 1;
+                b127.CopiesOnHand = 1;
                 b127.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b127);
 
@@ -1809,8 +1809,8 @@ namespace Team32_Project.Seeding
                 b128.Description ="The F.B.I.agent Noah Bishop and his special crimes unit help two sisters probe the secrets of a North Carolina town.";
                 b128.Price = 26.95m;
                 b128.Cost = 14.82m;
-                b128.ReorderPoint = 1m;
-                b128.CopiesOnHand = 3m;
+                b128.ReorderPoint = 1;
+                b128.CopiesOnHand = 3;
                 b128.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b128);
 
@@ -1823,8 +1823,8 @@ namespace Team32_Project.Seeding
                 b129.Description ="A young widow buys a bed-and-breakfast.";
                 b129.Price = 26.00m;
                 b129.Cost = 24.18m;
-                b129.ReorderPoint = 5m;
-                b129.CopiesOnHand = 8m;
+                b129.ReorderPoint = 5;
+                b129.CopiesOnHand = 8;
                 b129.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b129);
 
@@ -1837,8 +1837,8 @@ namespace Team32_Project.Seeding
                 b130.Description ="In the first book of a new fantasy series, the Dark Legacy of Shannara, Druids, Elves and humans unite to try to capture the Elfstones and rescue the troubled Four Lands.";
                 b130.Price = 28.00m;
                 b130.Cost = 4.20m;
-                b130.ReorderPoint = 1m;
-                b130.CopiesOnHand = 5m;
+                b130.ReorderPoint = 1;
+                b130.CopiesOnHand = 5;
                 b130.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b130);
 
@@ -1851,8 +1851,8 @@ namespace Team32_Project.Seeding
                 b131.Description ="A murder case for William Monk of the Thames River Police culminates in a government minister¡¯s corruption trial.";
                 b131.Price = 26.00m;
                 b131.Cost = 22.62m;
-                b131.ReorderPoint = 2m;
-                b131.CopiesOnHand = 2m;
+                b131.ReorderPoint = 2;
+                b131.CopiesOnHand = 2;
                 b131.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b131);
 
@@ -1865,8 +1865,8 @@ namespace Team32_Project.Seeding
                 b132.Description ="The detective Jane Rizzoli and the medical examiner Maura Isles protect a boy whose family and foster family have all been murdered.";
                 b132.Price = 27.00m;
                 b132.Cost = 9.99m;
-                b132.ReorderPoint = 5m;
-                b132.CopiesOnHand = 6m;
+                b132.ReorderPoint = 5;
+                b132.CopiesOnHand = 6;
                 b132.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b132);
 
@@ -1879,8 +1879,8 @@ namespace Team32_Project.Seeding
                 b133.Description ="Fathers and sons in Berkeley and Oakland, Calif.";
                 b133.Price = 27.99m;
                 b133.Cost = 11.20m;
-                b133.ReorderPoint = 10m;
-                b133.CopiesOnHand = 13m;
+                b133.ReorderPoint = 10;
+                b133.CopiesOnHand = 13;
                 b133.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b133);
 
@@ -1893,8 +1893,8 @@ namespace Team32_Project.Seeding
                 b134.Description ="In Book 6 of the Safehold science fiction series, the republic of Siddamark descends into chaos.";
                 b134.Price = 27.99m;
                 b134.Cost = 10.08m;
-                b134.ReorderPoint = 8m;
-                b134.CopiesOnHand = 8m;
+                b134.ReorderPoint = 8;
+                b134.CopiesOnHand = 8;
                 b134.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b134);
 
@@ -1907,8 +1907,8 @@ namespace Team32_Project.Seeding
                 b135.Description ="The forensic sculptor Eve Duncan investigates when her mother¡¯s friend disappears from a mental hospital.";
                 b135.Price = 27.99m;
                 b135.Cost = 4.48m;
-                b135.ReorderPoint = 3m;
-                b135.CopiesOnHand = 4m;
+                b135.ReorderPoint = 3;
+                b135.CopiesOnHand = 4;
                 b135.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b135);
 
@@ -1921,8 +1921,8 @@ namespace Team32_Project.Seeding
                 b136.Description ="A British woman working for MI5 in 1972 falls in love with a writer the service is clandestinely supporting.";
                 b136.Price = 26.95m;
                 b136.Cost = 16.17m;
-                b136.ReorderPoint = 4m;
-                b136.CopiesOnHand = 8m;
+                b136.ReorderPoint = 4;
+                b136.CopiesOnHand = 8;
                 b136.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b136);
 
@@ -1935,8 +1935,8 @@ namespace Team32_Project.Seeding
                 b137.Description ="Detective Alex Cross confronts both a hostage situation and a terrorist act at Christmas.";
                 b137.Price = 28.99m;
                 b137.Cost = 8.99m;
-                b137.ReorderPoint = 7m;
-                b137.CopiesOnHand = 10m;
+                b137.ReorderPoint = 7;
+                b137.CopiesOnHand = 10;
                 b137.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b137);
 
@@ -1949,8 +1949,8 @@ namespace Team32_Project.Seeding
                 b138.Description ="As China threatens to invade Taiwan, the covert intelligence expert Jack Ryan Jr.aids his father¡¯s administration  ¡ª but his agency is no longer secret.";
                 b138.Price = 28.95m;
                 b138.Cost = 10.71m;
-                b138.ReorderPoint = 9m;
-                b138.CopiesOnHand = 12m;
+                b138.ReorderPoint = 9;
+                b138.CopiesOnHand = 12;
                 b138.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b138);
 
@@ -1963,8 +1963,8 @@ namespace Team32_Project.Seeding
                 b139.Description ="Special Agent Aloysius Pendergast pursues a serial killer as well as his abducted wife.";
                 b139.Price = 26.99m;
                 b139.Cost = 13.23m;
-                b139.ReorderPoint = 4m;
-                b139.CopiesOnHand = 9m;
+                b139.ReorderPoint = 4;
+                b139.CopiesOnHand = 9;
                 b139.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b139);
 
@@ -1977,8 +1977,8 @@ namespace Team32_Project.Seeding
                 b140.Description ="In New York City in 1894, a wealthy young woman yearns for adventure and the love of an Irish-American with new money, rather than the titled Britons to whom her mother hopes to marry her off.";
                 b140.Price = 27.99m;
                 b140.Cost = 23.51m;
-                b140.ReorderPoint = 9m;
-                b140.CopiesOnHand = 11m;
+                b140.ReorderPoint = 9;
+                b140.CopiesOnHand = 11;
                 b140.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b140);
 
@@ -1991,8 +1991,8 @@ namespace Team32_Project.Seeding
                 b141.Description ="Back in New York, the lawyer Stone Barrington joins his former partner Holly Barker in pursuing a dangerous case.";
                 b141.Price = 26.95m;
                 b141.Cost = 19.40m;
-                b141.ReorderPoint = 10m;
-                b141.CopiesOnHand = 15m;
+                b141.ReorderPoint = 10;
+                b141.CopiesOnHand = 15;
                 b141.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b141);
 
@@ -2005,8 +2005,8 @@ namespace Team32_Project.Seeding
                 b142.Description ="Stories about Grafton¡¯s character Kinsey Millhone as well as explorations of Grafton¡¯s own past.";
                 b142.Price = 27.95m;
                 b142.Cost = 25.43m;
-                b142.ReorderPoint = 7m;
-                b142.CopiesOnHand = 10m;
+                b142.ReorderPoint = 7;
+                b142.CopiesOnHand = 10;
                 b142.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b142);
 
@@ -2019,8 +2019,8 @@ namespace Team32_Project.Seeding
                 b143.Description ="The veteran sniper Bob Lee Swagger investigates the assassination of John F.Kennedy.";
                 b143.Price = 26.99m;
                 b143.Cost = 15.11m;
-                b143.ReorderPoint = 3m;
-                b143.CopiesOnHand = 6m;
+                b143.ReorderPoint = 3;
+                b143.CopiesOnHand = 6;
                 b143.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b143);
 
@@ -2033,8 +2033,8 @@ namespace Team32_Project.Seeding
                 b144.Description ="The former C.I.A.operative John Wells pitches in when four young Americans who work at a refugee camp in Somalia are hijacked by bandits.";
                 b144.Price = 27.95m;
                 b144.Cost = 6.71m;
-                b144.ReorderPoint = 3m;
-                b144.CopiesOnHand = 4m;
+                b144.ReorderPoint = 3;
+                b144.CopiesOnHand = 4;
                 b144.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b144);
 
@@ -2047,8 +2047,8 @@ namespace Team32_Project.Seeding
                 b145.Description ="Theodosia Browning, owner of Indigo Tea Shop, is a bridesmaid in her friend's wedding. But the bridegroom is found dead on the big day.";
                 b145.Price = 29.00m;
                 b145.Cost = 13.92m;
-                b145.ReorderPoint = 8m;
-                b145.CopiesOnHand = 10m;
+                b145.ReorderPoint = 8;
+                b145.CopiesOnHand = 10;
                 b145.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b145);
 
@@ -2061,8 +2061,8 @@ namespace Team32_Project.Seeding
                 b146.Description ="Book 4 of the fantasy Neverwinter Saga.";
                 b146.Price = 27.95m;
                 b146.Cost = 2.80m;
-                b146.ReorderPoint = 10m;
-                b146.CopiesOnHand = 15m;
+                b146.ReorderPoint = 10;
+                b146.CopiesOnHand = 15;
                 b146.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b146);
 
@@ -2075,8 +2075,8 @@ namespace Team32_Project.Seeding
                 b147.Description ="Four decades in the friendship of three middle-class black women in a small  southern Indiana town.";
                 b147.Price = 24.95m;
                 b147.Cost = 7.49m;
-                b147.ReorderPoint = 10m;
-                b147.CopiesOnHand = 11m;
+                b147.ReorderPoint = 10;
+                b147.CopiesOnHand = 11;
                 b147.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b147);
 
@@ -2089,8 +2089,8 @@ namespace Team32_Project.Seeding
                 b148.Description ="Book 11 of the Black Dagger Brotherhood series.";
                 b148.Price = 27.95m;
                 b148.Cost = 12.86m;
-                b148.ReorderPoint = 7m;
-                b148.CopiesOnHand = 12m;
+                b148.ReorderPoint = 7;
+                b148.CopiesOnHand = 12;
                 b148.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b148);
 
@@ -2103,8 +2103,8 @@ namespace Team32_Project.Seeding
                 b149.Description ="In 1933, the private investigator Maisie Dobbs helps an Indian man whose sister¡¯s murder has been ignored by Scotland Yard.";
                 b149.Price = 26.99m;
                 b149.Cost = 2.97m;
-                b149.ReorderPoint = 10m;
-                b149.CopiesOnHand = 14m;
+                b149.ReorderPoint = 10;
+                b149.CopiesOnHand = 14;
                 b149.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b149);
 
@@ -2117,8 +2117,8 @@ namespace Team32_Project.Seeding
                 b150.Description ="A veteran makes a career in publishing in postwar New York and struggles to achieve romantic success.";
                 b150.Price = 26.95m;
                 b150.Cost = 14.01m;
-                b150.ReorderPoint = 6m;
-                b150.CopiesOnHand = 10m;
+                b150.ReorderPoint = 6;
+                b150.CopiesOnHand = 10;
                 b150.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b150);
 
@@ -2131,8 +2131,8 @@ namespace Team32_Project.Seeding
                 b151.Description ="The New York lawyer Stone Barrington discovers a shadowy network beneath the world of European wealth.";
                 b151.Price = 26.95m;
                 b151.Cost = 11.32m;
-                b151.ReorderPoint = 8m;
-                b151.CopiesOnHand = 10m;
+                b151.ReorderPoint = 8;
+                b151.CopiesOnHand = 10;
                 b151.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b151);
 
@@ -2145,8 +2145,8 @@ namespace Team32_Project.Seeding
                 b152.Description ="In a creepy battle between real and imaginary worlds, a brave biker chick is pitted against a ghoulish villain who lures children to a place where it is always Christmas.";
                 b152.Price = 34.00m;
                 b152.Cost = 28.56m;
-                b152.ReorderPoint = 9m;
-                b152.CopiesOnHand = 14m;
+                b152.ReorderPoint = 9;
+                b152.CopiesOnHand = 14;
                 b152.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b152);
 
@@ -2159,8 +2159,8 @@ namespace Team32_Project.Seeding
                 b153.Description ="Kurt Austin, Joe Zavala and the rest of the Numa team search for a physicist's machine, buried in an ocean trench, that can cause deadly earthquakes in the 11th Numa Files novel.";
                 b153.Price = 28.95m;
                 b153.Cost = 25.19m;
-                b153.ReorderPoint = 4m;
-                b153.CopiesOnHand = 9m;
+                b153.ReorderPoint = 4;
+                b153.CopiesOnHand = 9;
                 b153.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b153);
 
@@ -2173,8 +2173,8 @@ namespace Team32_Project.Seeding
                 b154.Description ="More than 150 years in a Texas family, from Comanche raids to the present, and its rise to money and power in the cattle and oil industries.";
                 b154.Price = 22.00m;
                 b154.Cost = 19.58m;
-                b154.ReorderPoint = 1m;
-                b154.CopiesOnHand = 3m;
+                b154.ReorderPoint = 1;
+                b154.CopiesOnHand = 3;
                 b154.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b154);
 
@@ -2187,8 +2187,8 @@ namespace Team32_Project.Seeding
                 b155.Description ="A Russian intelligence officer trained in the art of seduction becomes entangled with a young C.I.A.officer.";
                 b155.Price = 26.95m;
                 b155.Cost = 11.59m;
-                b155.ReorderPoint = 4m;
-                b155.CopiesOnHand = 9m;
+                b155.ReorderPoint = 4;
+                b155.CopiesOnHand = 9;
                 b155.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b155);
 
@@ -2201,8 +2201,8 @@ namespace Team32_Project.Seeding
                 b156.Description ="When their irresponsible mother takes off, a 12-year-old California girl and her sister join the rest of their family in Virginia.";
                 b156.Price = 23.95m;
                 b156.Cost = 8.38m;
-                b156.ReorderPoint = 8m;
-                b156.CopiesOnHand = 12m;
+                b156.ReorderPoint = 8;
+                b156.CopiesOnHand = 12;
                 b156.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b156);
 
@@ -2215,8 +2215,8 @@ namespace Team32_Project.Seeding
                 b157.Description ="Twins with psychic abilities share a devastating secret.";
                 b157.Price = 27.99m;
                 b157.Cost = 20.71m;
-                b157.ReorderPoint = 10m;
-                b157.CopiesOnHand = 10m;
+                b157.ReorderPoint = 10;
+                b157.CopiesOnHand = 10;
                 b157.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b157);
 
@@ -2229,8 +2229,8 @@ namespace Team32_Project.Seeding
                 b158.Description ="Gabriel Allon, an art restorer and occasional spy for the Israeli secret service, steps in to help the British prime minister, whose lover has been kidnapped.";
                 b158.Price = 17.95m;
                 b158.Cost = 2.33m;
-                b158.ReorderPoint = 1m;
-                b158.CopiesOnHand = 1m;
+                b158.ReorderPoint = 1;
+                b158.CopiesOnHand = 1;
                 b158.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b158);
 
@@ -2243,8 +2243,8 @@ namespace Team32_Project.Seeding
                 b159.Description ="In the second book of a trilogy, the forensic sculptor Eve Duncan struggles to outwit a kidnapper in the Colorado wilderness.";
                 b159.Price = 35.99m;
                 b159.Cost = 28.07m;
-                b159.ReorderPoint = 3m;
-                b159.CopiesOnHand = 5m;
+                b159.ReorderPoint = 3;
+                b159.CopiesOnHand = 5;
                 b159.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b159);
 
@@ -2257,8 +2257,8 @@ namespace Team32_Project.Seeding
                 b160.Description ="A savage killer follows the detective Dave Robicheaux and his family to a Montana ranch.";
                 b160.Price = 32.00m;
                 b160.Cost = 10.88m;
-                b160.ReorderPoint = 5m;
-                b160.CopiesOnHand = 7m;
+                b160.ReorderPoint = 5;
+                b160.CopiesOnHand = 7;
                 b160.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b160);
 
@@ -2271,8 +2271,8 @@ namespace Team32_Project.Seeding
                 b161.Description ="An Arabic-speaking Marine major known as the Tracker pursues a terrorist who radicalizes young Muslims living abroad.";
                 b161.Price = 23.95m;
                 b161.Cost = 10.78m;
-                b161.ReorderPoint = 2m;
-                b161.CopiesOnHand = 7m;
+                b161.ReorderPoint = 2;
+                b161.CopiesOnHand = 7;
                 b161.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b161);
 
@@ -2285,8 +2285,8 @@ namespace Team32_Project.Seeding
                 b162.Description ="A 12-year-old Seattle orphan during the Depression becomes convinced that a movie star is really his vanished mother.";
                 b162.Price = 18.00m;
                 b162.Cost = 6.30m;
-                b162.ReorderPoint = 9m;
-                b162.CopiesOnHand = 10m;
+                b162.ReorderPoint = 9;
+                b162.CopiesOnHand = 10;
                 b162.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b162);
 
@@ -2299,8 +2299,8 @@ namespace Team32_Project.Seeding
                 b163.Description ="A homeless man inexplicably leaves $600,000 to Kinsey Millhone.";
                 b163.Price = 16.00m;
                 b163.Cost = 7.04m;
-                b163.ReorderPoint = 3m;
-                b163.CopiesOnHand = 8m;
+                b163.ReorderPoint = 3;
+                b163.CopiesOnHand = 8;
                 b163.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b163);
 
@@ -2313,8 +2313,8 @@ namespace Team32_Project.Seeding
                 b164.Description ="The N.Y.P.D.homicide detective Nikki Heat and the journalist Jameson Rook search for the former C.I.A.station chief who ordered her mother¡¯s execution.\nThe N.Y.P.D.homicide detective Nikki Heat and the journalist Jameson Rook search for the former C.I.A.station chief who ordered her mother¡¯s execution.";
                 b164.Price = 16.00m;
                 b164.Cost = 3.36m;
-                b164.ReorderPoint = 1m;
-                b164.CopiesOnHand = 2m;
+                b164.ReorderPoint = 1;
+                b164.CopiesOnHand = 2;
                 b164.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b164);
 
@@ -2327,8 +2327,8 @@ namespace Team32_Project.Seeding
                 b165.Description ="A journalist who pursues a story about a former marine, the son of terrorists from 40 years ago, becomes a suspect in the death of his ex-wife.";
                 b165.Price = 16.00m;
                 b165.Cost = 4.48m;
-                b165.ReorderPoint = 6m;
-                b165.CopiesOnHand = 7m;
+                b165.ReorderPoint = 6;
+                b165.CopiesOnHand = 7;
                 b165.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b165);
 
@@ -2341,8 +2341,8 @@ namespace Team32_Project.Seeding
                 b166.Description ="The final book of a trilogy about the forensic sculptor Eve Duncan.";
                 b166.Price = 19.00m;
                 b166.Cost = 7.03m;
-                b166.ReorderPoint = 6m;
-                b166.CopiesOnHand = 11m;
+                b166.ReorderPoint = 6;
+                b166.CopiesOnHand = 11;
                 b166.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b166);
 
@@ -2355,8 +2355,8 @@ namespace Team32_Project.Seeding
                 b167.Description ="At Christmastime, a big-city columnist sets out to interview a reclusive author in Alaska.";
                 b167.Price = 24.95m;
                 b167.Cost = 17.96m;
-                b167.ReorderPoint = 10m;
-                b167.CopiesOnHand = 15m;
+                b167.ReorderPoint = 10;
+                b167.CopiesOnHand = 15;
                 b167.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b167);
 
@@ -2369,8 +2369,8 @@ namespace Team32_Project.Seeding
                 b168.Description ="Bridget, now 51 and a mother and widow, is once again looking for love.";
                 b168.Price = 29.95m;
                 b168.Cost = 18.57m;
-                b168.ReorderPoint = 1m;
-                b168.CopiesOnHand = 6m;
+                b168.ReorderPoint = 1;
+                b168.CopiesOnHand = 6;
                 b168.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b168);
 
@@ -2383,8 +2383,8 @@ namespace Team32_Project.Seeding
                 b169.Description ="The 10th and final installment of the sprawling fantasy series about Thomas Covenant the Unbeliever.";
                 b169.Price = 16.00m;
                 b169.Cost = 10.88m;
-                b169.ReorderPoint = 3m;
-                b169.CopiesOnHand = 7m;
+                b169.ReorderPoint = 3;
+                b169.CopiesOnHand = 7;
                 b169.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b169);
 
@@ -2397,8 +2397,8 @@ namespace Team32_Project.Seeding
                 b170.Description ="More than 50 new poems as well as selections from previous books from the two-term poet laureate of the Untied States.";
                 b170.Price = 30.99m;
                 b170.Cost = 25.41m;
-                b170.ReorderPoint = 7m;
-                b170.CopiesOnHand = 11m;
+                b170.ReorderPoint = 7;
+                b170.CopiesOnHand = 11;
                 b170.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b170);
 
@@ -2411,8 +2411,8 @@ namespace Team32_Project.Seeding
                 b171.Description ="A dead translator¡¯s coded notebook may hold the key to the murders of a muckraking journalist and an oligarch in the former Soviet Union.Arkady Renko, a senior investigator in the Moscow prosecutor¡¯s office, is on the case.";
                 b171.Price = 20.99m;
                 b171.Cost = 18.68m;
-                b171.ReorderPoint = 2m;
-                b171.CopiesOnHand = 2m;
+                b171.ReorderPoint = 2;
+                b171.CopiesOnHand = 2;
                 b171.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b171);
 
@@ -2425,8 +2425,8 @@ namespace Team32_Project.Seeding
                 b172.Description ="The murder of a computer engineer at M.I.T.leads the Massachusetts Chief Medical Examiner Kay Scarpetta in unexpected directions.";
                 b172.Price = 23.99m;
                 b172.Cost = 18.23m;
-                b172.ReorderPoint = 4m;
-                b172.CopiesOnHand = 4m;
+                b172.ReorderPoint = 4;
+                b172.CopiesOnHand = 4;
                 b172.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b172);
 
@@ -2439,8 +2439,8 @@ namespace Team32_Project.Seeding
                 b173.Description ="Tensions arise when Valentine Roncalli, a Greenwich Village shoe designer, marries a handsome Italian, and the two must balance careers, countries and families.The final book in the Valentine trilogy.";
                 b173.Price = 34.99m;
                 b173.Cost = 7.00m;
-                b173.ReorderPoint = 4m;
-                b173.CopiesOnHand = 6m;
+                b173.ReorderPoint = 4;
+                b173.CopiesOnHand = 6;
                 b173.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b173);
 
@@ -2453,8 +2453,8 @@ namespace Team32_Project.Seeding
                 b174.Description ="A grotesque man living in exile beneath the city encounters a teenage girl hiding from dangerous enemies.";
                 b174.Price = 21.00m;
                 b174.Cost = 13.44m;
-                b174.ReorderPoint = 3m;
-                b174.CopiesOnHand = 7m;
+                b174.ReorderPoint = 3;
+                b174.CopiesOnHand = 7;
                 b174.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b174);
 
@@ -2467,8 +2467,8 @@ namespace Team32_Project.Seeding
                 b175.Description ="In the aftermath of World War I, a Scotland Yard detective with a heavy burden of guilt, investigates two murders in Cambridgeshire that may be linked.";
                 b175.Price = 32.99m;
                 b175.Cost = 18.47m;
-                b175.ReorderPoint = 4m;
-                b175.CopiesOnHand = 7m;
+                b175.ReorderPoint = 4;
+                b175.CopiesOnHand = 7;
                 b175.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b175);
 
@@ -2481,8 +2481,8 @@ namespace Team32_Project.Seeding
                 b176.Description ="The early years of Collins¡¯s recurring character Lucky Santangelo.";
                 b176.Price = 30.95m;
                 b176.Cost = 17.95m;
-                b176.ReorderPoint = 10m;
-                b176.CopiesOnHand = 10m;
+                b176.ReorderPoint = 10;
+                b176.CopiesOnHand = 10;
                 b176.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b176);
 
@@ -2495,8 +2495,8 @@ namespace Team32_Project.Seeding
                 b177.Description ="John Wells is sent on a mission to find the truth about a mysterious Iranian package said to be bound for the United States.";
                 b177.Price = 16.99m;
                 b177.Cost = 9.68m;
-                b177.ReorderPoint = 8m;
-                b177.CopiesOnHand = 8m;
+                b177.ReorderPoint = 8;
+                b177.CopiesOnHand = 8;
                 b177.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b177);
 
@@ -2509,8 +2509,8 @@ namespace Team32_Project.Seeding
                 b178.Description ="In Book 7 of the Safehold science fiction series, the empire of Charis fights for self-determination.";
                 b178.Price = 22.00m;
                 b178.Cost = 17.60m;
-                b178.ReorderPoint = 3m;
-                b178.CopiesOnHand = 7m;
+                b178.ReorderPoint = 3;
+                b178.CopiesOnHand = 7;
                 b178.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b178);
 
@@ -2523,8 +2523,8 @@ namespace Team32_Project.Seeding
                 b179.Description ="In Edwardian England, an aristocratic family and the family who serve them share an ancestral home.";
                 b179.Price = 26.00m;
                 b179.Cost = 8.06m;
-                b179.ReorderPoint = 4m;
-                b179.CopiesOnHand = 5m;
+                b179.ReorderPoint = 4;
+                b179.CopiesOnHand = 5;
                 b179.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b179);
 
@@ -2537,8 +2537,8 @@ namespace Team32_Project.Seeding
                 b180.Description ="A murder mystery set in San Francisco in 1876, when the city is in the grip of a smallpox epidemic and a heat wave.";
                 b180.Price = 16.95m;
                 b180.Cost = 4.92m;
-                b180.ReorderPoint = 5m;
-                b180.CopiesOnHand = 10m;
+                b180.ReorderPoint = 5;
+                b180.CopiesOnHand = 10;
                 b180.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b180);
 
@@ -2551,8 +2551,8 @@ namespace Team32_Project.Seeding
                 b181.Description ="The National Park Service Ranger Anna Pigeon must rescue friends who are kidnapped while camping in Minnesota.";
                 b181.Price = 32.00m;
                 b181.Cost = 3.52m;
-                b181.ReorderPoint = 3m;
-                b181.CopiesOnHand = 5m;
+                b181.ReorderPoint = 3;
+                b181.CopiesOnHand = 5;
                 b181.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b181);
 
@@ -2565,8 +2565,8 @@ namespace Team32_Project.Seeding
                 b182.Description ="The counterspy Alex Hawke must rescue a kidnapped scientist.";
                 b182.Price = 33.99m;
                 b182.Cost = 5.44m;
-                b182.ReorderPoint = 8m;
-                b182.CopiesOnHand = 12m;
+                b182.ReorderPoint = 8;
+                b182.CopiesOnHand = 12;
                 b182.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b182);
 
@@ -2579,8 +2579,8 @@ namespace Team32_Project.Seeding
                 b183.Description ="The C.I.A.operative Catherine Ling must spearhead the rescue of an American journalist kidnapped in Tibet.";
                 b183.Price = 34.00m;
                 b183.Cost = 6.46m;
-                b183.ReorderPoint = 5m;
-                b183.CopiesOnHand = 9m;
+                b183.ReorderPoint = 5;
+                b183.CopiesOnHand = 9;
                 b183.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b183);
 
@@ -2593,8 +2593,8 @@ namespace Team32_Project.Seeding
                 b184.Description ="The lives of a blind French girl and a gadget-obsessed German boy before and during World War II, when their paths eventually cross.";
                 b184.Price = 23.95m;
                 b184.Cost = 10.30m;
-                b184.ReorderPoint = 6m;
-                b184.CopiesOnHand = 8m;
+                b184.ReorderPoint = 6;
+                b184.CopiesOnHand = 8;
                 b184.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b184);
 
@@ -2607,8 +2607,8 @@ namespace Team32_Project.Seeding
                 b185.Description ="The former C.I.A.agent Wyman Ford must stop Dorothy, a powerful artificial intelligence that has gone rogue.";
                 b185.Price = 35.00m;
                 b185.Cost = 28.00m;
-                b185.ReorderPoint = 10m;
-                b185.CopiesOnHand = 14m;
+                b185.ReorderPoint = 10;
+                b185.CopiesOnHand = 14;
                 b185.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b185);
 
@@ -2621,8 +2621,8 @@ namespace Team32_Project.Seeding
                 b186.Description ="Well-heeled New Yorkers and their friends spend two weeks in Majorca, a time when rivalries and secrets come to light.";
                 b186.Price = 33.00m;
                 b186.Cost = 5.94m;
-                b186.ReorderPoint = 10m;
-                b186.CopiesOnHand = 14m;
+                b186.ReorderPoint = 10;
+                b186.CopiesOnHand = 14;
                 b186.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b186);
 
@@ -2635,8 +2635,8 @@ namespace Team32_Project.Seeding
                 b187.Description ="Three generations of women endure a stormy summer in South Carolina's Lowcountry.";
                 b187.Price = 16.00m;
                 b187.Cost = 9.60m;
-                b187.ReorderPoint = 4m;
-                b187.CopiesOnHand = 5m;
+                b187.ReorderPoint = 4;
+                b187.CopiesOnHand = 5;
                 b187.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b187);
 
@@ -2649,8 +2649,8 @@ namespace Team32_Project.Seeding
                 b188.Description ="A Nantucket resident¡¯s life is shaken by a diagnosis and the return to the island of her high school sweetheart.";
                 b188.Price = 25.00m;
                 b188.Cost = 11.00m;
-                b188.ReorderPoint = 4m;
-                b188.CopiesOnHand = 4m;
+                b188.ReorderPoint = 4;
+                b188.CopiesOnHand = 4;
                 b188.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b188);
 
@@ -2663,8 +2663,8 @@ namespace Team32_Project.Seeding
                 b189.Description ="Alexandra Cooper, a Manhattan assistant district attorney, hunts for a killer in Grand Central¡¯s underground tunnels.";
                 b189.Price = 32.95m;
                 b189.Cost = 16.48m;
-                b189.ReorderPoint = 8m;
-                b189.CopiesOnHand = 12m;
+                b189.ReorderPoint = 8;
+                b189.CopiesOnHand = 12;
                 b189.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b189);
 
@@ -2677,8 +2677,8 @@ namespace Team32_Project.Seeding
                 b190.Description ="A woman in a troubled marriage finds a way to communicate with her husband in the past.";
                 b190.Price = 29.00m;
                 b190.Cost = 5.80m;
-                b190.ReorderPoint = 8m;
-                b190.CopiesOnHand = 13m;
+                b190.ReorderPoint = 8;
+                b190.CopiesOnHand = 13;
                 b190.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b190);
 
@@ -2691,8 +2691,8 @@ namespace Team32_Project.Seeding
                 b191.Description ="In the conclusion to the All Souls trilogy, the Oxford scholar/witch Diana Bishop and the vampire geneticist Matthew Clairmont return from Elizabethan London to the present.";
                 b191.Price = 27.95m;
                 b191.Cost = 8.66m;
-                b191.ReorderPoint = 9m;
-                b191.CopiesOnHand = 9m;
+                b191.ReorderPoint = 9;
+                b191.CopiesOnHand = 9;
                 b191.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b191);
 
@@ -2705,8 +2705,8 @@ namespace Team32_Project.Seeding
                 b192.Description ="In the seventh Kate Daniels novel, Kate deals with paranormal politics in Atlanta as she prepares the Pack for an attack.";
                 b192.Price = 32.00m;
                 b192.Cost = 16.96m;
-                b192.ReorderPoint = 2m;
-                b192.CopiesOnHand = 4m;
+                b192.ReorderPoint = 2;
+                b192.CopiesOnHand = 4;
                 b192.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b192);
 
@@ -2719,8 +2719,8 @@ namespace Team32_Project.Seeding
                 b193.Description ="Who will end up dead, and how, when three mothers with children in the same school become friends?";
                 b193.Price = 17.00m;
                 b193.Cost = 5.10m;
-                b193.ReorderPoint = 7m;
-                b193.CopiesOnHand = 11m;
+                b193.ReorderPoint = 7;
+                b193.CopiesOnHand = 11;
                 b193.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b193);
 
@@ -2733,8 +2733,8 @@ namespace Team32_Project.Seeding
                 b194.Description ="Will a scarred warrior and the beautiful sorceress with the power to heal him overcome the challenges of their warring families and the chaotic battles around them? Book 15 in the Immortals After Dark series.";
                 b194.Price = 20.00m;
                 b194.Cost = 4.00m;
-                b194.ReorderPoint = 4m;
-                b194.CopiesOnHand = 4m;
+                b194.ReorderPoint = 4;
+                b194.CopiesOnHand = 4;
                 b194.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b194);
 
@@ -2747,8 +2747,8 @@ namespace Team32_Project.Seeding
                 b195.Description ="Quentin, an exiled magician, tries a risky heist in the final installment of a trilogy.";
                 b195.Price = 28.95m;
                 b195.Cost = 5.50m;
-                b195.ReorderPoint = 6m;
-                b195.CopiesOnHand = 9m;
+                b195.ReorderPoint = 6;
+                b195.CopiesOnHand = 9;
                 b195.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b195);
 
@@ -2761,8 +2761,8 @@ namespace Team32_Project.Seeding
                 b196.Description ="A North Carolina pediatrician is held captive by a mysterious man who forces her to question her life.";
                 b196.Price = 29.95m;
                 b196.Cost = 26.66m;
-                b196.ReorderPoint = 8m;
-                b196.CopiesOnHand = 11m;
+                b196.ReorderPoint = 8;
+                b196.CopiesOnHand = 11;
                 b196.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b196);
 
@@ -2775,8 +2775,8 @@ namespace Team32_Project.Seeding
                 b197.Description ="As chief lady-in-waiting to Katherine of Aragon, Margaret Pole is torn between the queen and her husband, Henry VIII.";
                 b197.Price = 18.99m;
                 b197.Cost = 3.99m;
-                b197.ReorderPoint = 10m;
-                b197.CopiesOnHand = 14m;
+                b197.ReorderPoint = 10;
+                b197.CopiesOnHand = 14;
                 b197.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b197);
 
@@ -2789,8 +2789,8 @@ namespace Team32_Project.Seeding
                 b198.Description ="A child murderer who eluded capture years ago has resurfaced, giving the forensic anthropologist Temperance Brennan another chance to stop her.";
                 b198.Price = 14.95m;
                 b198.Cost = 9.42m;
-                b198.ReorderPoint = 10m;
-                b198.CopiesOnHand = 12m;
+                b198.ReorderPoint = 10;
+                b198.CopiesOnHand = 12;
                 b198.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b198);
 
@@ -2803,8 +2803,8 @@ namespace Team32_Project.Seeding
                 b199.Description ="In the 1970s, an Irish widow struggles to find her identity.";
                 b199.Price = 30.99m;
                 b199.Cost = 4.65m;
-                b199.ReorderPoint = 2m;
-                b199.CopiesOnHand = 3m;
+                b199.ReorderPoint = 2;
+                b199.CopiesOnHand = 3;
                 b199.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b199);
 
@@ -2817,8 +2817,8 @@ namespace Team32_Project.Seeding
                 b200.Description ="Complications ensue when the owner of Nantucket¡¯s Winter Street Inn gathers his four children and their families for Christmas.";
                 b200.Price = 20.95m;
                 b200.Cost = 2.30m;
-                b200.ReorderPoint = 6m;
-                b200.CopiesOnHand = 9m;
+                b200.ReorderPoint = 6;
+                b200.CopiesOnHand = 9;
                 b200.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b200);
 
@@ -2831,8 +2831,8 @@ namespace Team32_Project.Seeding
                 b201.Description ="The hero of the Man Booker Prize-winning novel about love, good and evil is a P.O.W.working on the Thai-Burma Death Railway during World War II.";
                 b201.Price = 34.00m;
                 b201.Cost = 20.74m;
-                b201.ReorderPoint = 6m;
-                b201.CopiesOnHand = 9m;
+                b201.ReorderPoint = 6;
+                b201.CopiesOnHand = 9;
                 b201.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b201);
 
@@ -2845,8 +2845,8 @@ namespace Team32_Project.Seeding
                 b202.Description ="The 15th book in the No. 1 Ladies¡¯ Detective Agency series.";
                 b202.Price = 25.95m;
                 b202.Cost = 17.91m;
-                b202.ReorderPoint = 3m;
-                b202.CopiesOnHand = 6m;
+                b202.ReorderPoint = 3;
+                b202.CopiesOnHand = 6;
                 b202.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b202);
 
@@ -2859,8 +2859,8 @@ namespace Team32_Project.Seeding
                 b203.Description ="The Los Angeles detective Harry Bosch and his new partner investigate two long-unsolved cases.";
                 b203.Price = 36.99m;
                 b203.Cost = 17.39m;
-                b203.ReorderPoint = 7m;
-                b203.CopiesOnHand = 9m;
+                b203.ReorderPoint = 7;
+                b203.CopiesOnHand = 9;
                 b203.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b203);
 
@@ -2873,8 +2873,8 @@ namespace Team32_Project.Seeding
                 b204.Description ="The F.B.I.special agent Kate O¡¯Hare works with Nicolas Fox, a handsome con man, to pursue a drug kingpin.";
                 b204.Price = 28.95m;
                 b204.Cost = 20.27m;
-                b204.ReorderPoint = 10m;
-                b204.CopiesOnHand = 14m;
+                b204.ReorderPoint = 10;
+                b204.CopiesOnHand = 14;
                 b204.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b204);
 
@@ -2887,8 +2887,8 @@ namespace Team32_Project.Seeding
                 b205.Description ="A TV producer plans a show about a cold case ¡ª the murder of a U.C.L.A.student who was found with one shoe missing.";
                 b205.Price = 25.95m;
                 b205.Cost = 5.97m;
-                b205.ReorderPoint = 1m;
-                b205.CopiesOnHand = 4m;
+                b205.ReorderPoint = 1;
+                b205.CopiesOnHand = 4;
                 b205.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b205);
 
@@ -2901,8 +2901,8 @@ namespace Team32_Project.Seeding
                 b206.Description ="A divorced woman enters into a contract with a strange man to pretend to be a couple until Christmas.";
                 b206.Price = 23.99m;
                 b206.Cost = 12.23m;
-                b206.ReorderPoint = 10m;
-                b206.CopiesOnHand = 11m;
+                b206.ReorderPoint = 10;
+                b206.CopiesOnHand = 11;
                 b206.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b206);
 
@@ -2915,8 +2915,8 @@ namespace Team32_Project.Seeding
                 b207.Description ="Detective Alex Cross¡¯s family is kidnapped by a madman who wants to turn Cross into a perfect killer.";
                 b207.Price = 31.95m;
                 b207.Cost = 3.51m;
-                b207.ReorderPoint = 7m;
-                b207.CopiesOnHand = 12m;
+                b207.ReorderPoint = 7;
+                b207.CopiesOnHand = 12;
                 b207.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b207);
 
@@ -2929,8 +2929,8 @@ namespace Team32_Project.Seeding
                 b208.Description ="A woman who is being stalked is aided by an unlikely ally.";
                 b208.Price = 17.95m;
                 b208.Cost = 12.39m;
-                b208.ReorderPoint = 9m;
-                b208.CopiesOnHand = 10m;
+                b208.ReorderPoint = 9;
+                b208.CopiesOnHand = 10;
                 b208.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b208);
 
@@ -2943,8 +2943,8 @@ namespace Team32_Project.Seeding
                 b209.Description ="Jack Morgan, the head of an investigative firm, uncovers a murder ring in Las Vegas.";
                 b209.Price = 32.00m;
                 b209.Cost = 25.92m;
-                b209.ReorderPoint = 8m;
-                b209.CopiesOnHand = 11m;
+                b209.ReorderPoint = 8;
+                b209.CopiesOnHand = 11;
                 b209.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b209);
 
@@ -2957,8 +2957,8 @@ namespace Team32_Project.Seeding
                 b210.Description ="Stories and poems about the power of imagination.";
                 b210.Price = 17.95m;
                 b210.Cost = 10.41m;
-                b210.ReorderPoint = 4m;
-                b210.CopiesOnHand = 5m;
+                b210.ReorderPoint = 4;
+                b210.CopiesOnHand = 5;
                 b210.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b210);
 
@@ -2971,8 +2971,8 @@ namespace Team32_Project.Seeding
                 b211.Description ="The former C.I.A.operative John Wells discovers a plot to trick the president into invading Iran.";
                 b211.Price = 25.00m;
                 b211.Cost = 18.50m;
-                b211.ReorderPoint = 8m;
-                b211.CopiesOnHand = 9m;
+                b211.ReorderPoint = 8;
+                b211.CopiesOnHand = 9;
                 b211.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b211);
 
@@ -2985,8 +2985,8 @@ namespace Team32_Project.Seeding
                 b212.Description ="Four generations of a family are drawn to a house in the Baltimore suburbs.";
                 b212.Price = 15.95m;
                 b212.Cost = 1.75m;
-                b212.ReorderPoint = 10m;
-                b212.CopiesOnHand = 10m;
+                b212.ReorderPoint = 10;
+                b212.CopiesOnHand = 10;
                 b212.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b212);
 
@@ -2999,8 +2999,8 @@ namespace Team32_Project.Seeding
                 b213.Description ="A light-hearted fable by the actor.";
                 b213.Price = 19.99m;
                 b213.Cost = 11.79m;
-                b213.ReorderPoint = 5m;
-                b213.CopiesOnHand = 6m;
+                b213.ReorderPoint = 5;
+                b213.CopiesOnHand = 6;
                 b213.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b213);
 
@@ -3013,8 +3013,8 @@ namespace Team32_Project.Seeding
                 b214.Description ="Twins, one good and one bad, reunite after 20 years when one of them returns to their hometown.But it is no longer clear who the good and who the bad one is.";
                 b214.Price = 18.95m;
                 b214.Cost = 9.10m;
-                b214.ReorderPoint = 2m;
-                b214.CopiesOnHand = 3m;
+                b214.ReorderPoint = 2;
+                b214.CopiesOnHand = 3;
                 b214.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b214);
 
@@ -3027,8 +3027,8 @@ namespace Team32_Project.Seeding
                 b215.Description ="Three estranged sisters work to resolve their differences";
                 b215.Price = 20.00m;
                 b215.Cost = 15.60m;
-                b215.ReorderPoint = 5m;
-                b215.CopiesOnHand = 5m;
+                b215.ReorderPoint = 5;
+                b215.CopiesOnHand = 5;
                 b215.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b215);
 
@@ -3041,8 +3041,8 @@ namespace Team32_Project.Seeding
                 b216.Description ="The former Berlin homicide detective Bernie Gunther is sent to Croatia by Joseph Goebbels to persuade a film star to appear in a movie.";
                 b216.Price = 20.95m;
                 b216.Cost = 19.27m;
-                b216.ReorderPoint = 6m;
-                b216.CopiesOnHand = 9m;
+                b216.ReorderPoint = 6;
+                b216.CopiesOnHand = 9;
                 b216.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b216);
 
@@ -3055,8 +3055,8 @@ namespace Team32_Project.Seeding
                 b217.Description ="A video of a shocking crime surfaces, casting suspicion on a San Francisco detective's colleagues.";
                 b217.Price = 24.99m;
                 b217.Cost = 6.25m;
-                b217.ReorderPoint = 4m;
-                b217.CopiesOnHand = 9m;
+                b217.ReorderPoint = 4;
+                b217.CopiesOnHand = 9;
                 b217.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b217);
 
@@ -3069,8 +3069,8 @@ namespace Team32_Project.Seeding
                 b218.Description ="The fourth and final volume in a series of Civil War novels describes the war's last months through multiple perspectives.";
                 b218.Price = 28.95m;
                 b218.Cost = 5.50m;
-                b218.ReorderPoint = 8m;
-                b218.CopiesOnHand = 13m;
+                b218.ReorderPoint = 8;
+                b218.CopiesOnHand = 13;
                 b218.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b218);
 
@@ -3083,8 +3083,8 @@ namespace Team32_Project.Seeding
                 b219.Description ="Secrets are revealed and love stories play out against the backdrop of a series of panic-inducing plane crashes in 1950s New Jersey.";
                 b219.Price = 18.95m;
                 b219.Cost = 16.87m;
-                b219.ReorderPoint = 9m;
-                b219.CopiesOnHand = 12m;
+                b219.ReorderPoint = 9;
+                b219.CopiesOnHand = 12;
                 b219.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b219);
 
@@ -3097,8 +3097,8 @@ namespace Team32_Project.Seeding
                 b220.Description ="A bookseller with a knack for finding just the right book for making others feel better embarks on a journey in pursuit of his own happiness.";
                 b220.Price = 34.00m;
                 b220.Cost = 5.78m;
-                b220.ReorderPoint = 6m;
-                b220.CopiesOnHand = 11m;
+                b220.ReorderPoint = 6;
+                b220.CopiesOnHand = 11;
                 b220.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b220);
 
@@ -3111,8 +3111,8 @@ namespace Team32_Project.Seeding
                 b221.Description ="A Texas Ranger fights for custody of his daughter amid complications stemming from his attraction to the judge.";
                 b221.Price = 18.99m;
                 b221.Cost = 2.85m;
-                b221.ReorderPoint = 7m;
-                b221.CopiesOnHand = 8m;
+                b221.ReorderPoint = 7;
+                b221.CopiesOnHand = 8;
                 b221.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b221);
 
@@ -3125,8 +3125,8 @@ namespace Team32_Project.Seeding
                 b222.Description ="The wealthy couple Sam and Remi Fargo investigate a dangerous legend in the Solomon Islands.";
                 b222.Price = 26.95m;
                 b222.Cost = 18.06m;
-                b222.ReorderPoint = 9m;
-                b222.CopiesOnHand = 11m;
+                b222.ReorderPoint = 9;
+                b222.CopiesOnHand = 11;
                 b222.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b222);
 
@@ -3139,8 +3139,8 @@ namespace Team32_Project.Seeding
                 b223.Description ="A New Regime imposes tyranny in the aftermath of a nuclear attack.";
                 b223.Price = 23.95m;
                 b223.Cost = 3.59m;
-                b223.ReorderPoint = 6m;
-                b223.CopiesOnHand = 10m;
+                b223.ReorderPoint = 6;
+                b223.CopiesOnHand = 10;
                 b223.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b223);
 
@@ -3153,8 +3153,8 @@ namespace Team32_Project.Seeding
                 b224.Description ="When bodies are found at a Hamptons estate where a series of grisly murders once occurred, a local detective and former New York City cop investigates.";
                 b224.Price = 23.95m;
                 b224.Cost = 17.72m;
-                b224.ReorderPoint = 6m;
-                b224.CopiesOnHand = 6m;
+                b224.ReorderPoint = 6;
+                b224.CopiesOnHand = 6;
                 b224.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b224);
 
@@ -3167,8 +3167,8 @@ namespace Team32_Project.Seeding
                 b225.Description ="A fictional treatment of the life of the actress Loretta Young focuses on her rumored affair with the married Clark Gable and her subsequent pregnancy.";
                 b225.Price = 26.95m;
                 b225.Cost = 19.94m;
-                b225.ReorderPoint = 2m;
-                b225.CopiesOnHand = 4m;
+                b225.ReorderPoint = 2;
+                b225.CopiesOnHand = 4;
                 b225.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b225);
 
@@ -3181,8 +3181,8 @@ namespace Team32_Project.Seeding
                 b226.Description ="A London detective investigating a missing-persons case becomes curious about an unsolved 1933 kidnapping in Cornwall.";
                 b226.Price = 16.95m;
                 b226.Cost = 10.17m;
-                b226.ReorderPoint = 8m;
-                b226.CopiesOnHand = 12m;
+                b226.ReorderPoint = 8;
+                b226.CopiesOnHand = 12;
                 b226.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b226);
 
@@ -3195,8 +3195,8 @@ namespace Team32_Project.Seeding
                 b227.Description ="A young refugee from the Nazis and the son of her family¡¯s Japanese gardener must hide their love, although it lasts a lifetime.";
                 b227.Price = 33.99m;
                 b227.Cost = 8.16m;
-                b227.ReorderPoint = 3m;
-                b227.CopiesOnHand = 7m;
+                b227.ReorderPoint = 3;
+                b227.CopiesOnHand = 7;
                 b227.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b227);
 
@@ -3209,8 +3209,8 @@ namespace Team32_Project.Seeding
                 b228.Description ="The Los Angeles P.I.Elvis Cole joins forces with the K-9 officer Scott James of the L.A.P.D.and his German shepherd, Maggie, as well as his partner, Joe Pike, to foil a criminal mastermind.";
                 b228.Price = 27.95m;
                 b228.Cost = 18.73m;
-                b228.ReorderPoint = 8m;
-                b228.CopiesOnHand = 9m;
+                b228.ReorderPoint = 8;
+                b228.CopiesOnHand = 9;
                 b228.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b228);
 
@@ -3223,8 +3223,8 @@ namespace Team32_Project.Seeding
                 b229.Description ="Kurt Austin and Joe Zavala must save the NUMA crew from a mysterious toxin deployed by a villain who wants to build a new Egyptian empire.";
                 b229.Price = 31.95m;
                 b229.Cost = 12.46m;
-                b229.ReorderPoint = 2m;
-                b229.CopiesOnHand = 3m;
+                b229.ReorderPoint = 2;
+                b229.CopiesOnHand = 3;
                 b229.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b229);
 
@@ -3237,8 +3237,8 @@ namespace Team32_Project.Seeding
                 b230.Description ="The government hit man Will Robie investigates murder charges against his estranged father in their Mississippi hometown.";
                 b230.Price = 19.95m;
                 b230.Cost = 17.16m;
-                b230.ReorderPoint = 3m;
-                b230.CopiesOnHand = 3m;
+                b230.ReorderPoint = 3;
+                b230.CopiesOnHand = 3;
                 b230.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b230);
 
@@ -3251,8 +3251,8 @@ namespace Team32_Project.Seeding
                 b231.Description ="An aspiring romance writer with a broken heart meets a complicated man at a Christmas writers¡¯ retreat.";
                 b231.Price = 36.95m;
                 b231.Cost = 11.09m;
-                b231.ReorderPoint = 10m;
-                b231.CopiesOnHand = 10m;
+                b231.ReorderPoint = 10;
+                b231.CopiesOnHand = 10;
                 b231.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b231);
 
@@ -3265,8 +3265,8 @@ namespace Team32_Project.Seeding
                 b232.Description ="The Boston detective D.D.Warren hunts for a missing woman who was kidnapped and abused as a college student and may have become a vigilante.";
                 b232.Price = 28.95m;
                 b232.Cost = 10.71m;
-                b232.ReorderPoint = 4m;
-                b232.CopiesOnHand = 4m;
+                b232.ReorderPoint = 4;
+                b232.CopiesOnHand = 4;
                 b232.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b232);
 
@@ -3279,8 +3279,8 @@ namespace Team32_Project.Seeding
                 b233.Description ="The Lake Eden, Minn., baker Hannah Swensen is about to get married, but first she must solve the murder of a visiting celebrity chef.Recipes included.";
                 b233.Price = 23.95m;
                 b233.Cost = 17.72m;
-                b233.ReorderPoint = 10m;
-                b233.CopiesOnHand = 14m;
+                b233.ReorderPoint = 10;
+                b233.CopiesOnHand = 14;
                 b233.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b233);
 
@@ -3293,8 +3293,8 @@ namespace Team32_Project.Seeding
                 b234.Description ="n the ninth book in this series, set in 1906, the New York detective Isaac Bell contends with a crime boss passing as a respectable businessman and a tycoon¡¯s plot against President Theodore Roosevelt.";
                 b234.Price = 30.95m;
                 b234.Cost = 7.12m;
-                b234.ReorderPoint = 8m;
-                b234.CopiesOnHand = 13m;
+                b234.ReorderPoint = 8;
+                b234.CopiesOnHand = 13;
                 b234.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b234);
 
@@ -3307,8 +3307,8 @@ namespace Team32_Project.Seeding
                 b235.Description ="A retired Army helicopter pilot faces combat-related nightmares and mysteries concerning the deaths of her husband and sister.";
                 b235.Price = 24.95m;
                 b235.Cost = 12.72m;
-                b235.ReorderPoint = 10m;
-                b235.CopiesOnHand = 11m;
+                b235.ReorderPoint = 10;
+                b235.CopiesOnHand = 11;
                 b235.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b235);
 
@@ -3321,8 +3321,8 @@ namespace Team32_Project.Seeding
                 b236.Description ="Spenser is back, leaving a trail of antagonism as he investigates a series of suspicious Boston fires.";
                 b236.Price = 22.99m;
                 b236.Cost = 10.58m;
-                b236.ReorderPoint = 1m;
-                b236.CopiesOnHand = 2m;
+                b236.ReorderPoint = 1;
+                b236.CopiesOnHand = 2;
                 b236.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b236);
 
@@ -3335,8 +3335,8 @@ namespace Team32_Project.Seeding
                 b237.Description ="A billionaire and his son meet at a remote desert compound dedicated to preserving bodies until they can be returned to life in the future.";
                 b237.Price = 20.00m;
                 b237.Cost = 15.20m;
-                b237.ReorderPoint = 4m;
-                b237.CopiesOnHand = 6m;
+                b237.ReorderPoint = 4;
+                b237.CopiesOnHand = 6;
                 b237.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b237);
 
@@ -3349,8 +3349,8 @@ namespace Team32_Project.Seeding
                 b238.Description ="A deal with a fellow inmate, a crime boss, springs Nick Mason from prison, but he must become an assassin.";
                 b238.Price = 19.99m;
                 b238.Cost = 3.20m;
-                b238.ReorderPoint = 2m;
-                b238.CopiesOnHand = 5m;
+                b238.ReorderPoint = 2;
+                b238.CopiesOnHand = 5;
                 b238.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b238);
 
@@ -3363,8 +3363,8 @@ namespace Team32_Project.Seeding
                 b239.Description ="On the North Carolina island of Belle Isle, a woman investigates her husband¡¯s shady financial affairs after his mysterious death.";
                 b239.Price = 20.95m;
                 b239.Cost = 12.78m;
-                b239.ReorderPoint = 9m;
-                b239.CopiesOnHand = 13m;
+                b239.ReorderPoint = 9;
+                b239.CopiesOnHand = 13;
                 b239.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b239);
 
@@ -3377,8 +3377,8 @@ namespace Team32_Project.Seeding
                 b240.Description ="Juan Cabrillo teams up with a former C.I.A.colleague to thwart a plan involving the death of millions and international economic meltdown.";
                 b240.Price = 27.99m;
                 b240.Cost = 20.43m;
-                b240.ReorderPoint = 1m;
-                b240.CopiesOnHand = 3m;
+                b240.ReorderPoint = 1;
+                b240.CopiesOnHand = 3;
                 b240.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b240);
 
@@ -3391,8 +3391,8 @@ namespace Team32_Project.Seeding
                 b241.Description ="This Ghanaian-American writer¡¯s first novel traces the lives in West Africa and America of seven generations of the descendants of two half sisters.";
                 b241.Price = 26.95m;
                 b241.Cost = 2.70m;
-                b241.ReorderPoint = 4m;
-                b241.CopiesOnHand = 8m;
+                b241.ReorderPoint = 4;
+                b241.CopiesOnHand = 8;
                 b241.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b241);
 
@@ -3405,8 +3405,8 @@ namespace Team32_Project.Seeding
                 b242.Description ="Sparks fly as a celebrity chef¡¯s ex-wives pile into a small cabin in Nantucket to join his widow for the reading of his will.";
                 b242.Price = 26.95m;
                 b242.Cost = 8.62m;
-                b242.ReorderPoint = 9m;
-                b242.CopiesOnHand = 13m;
+                b242.ReorderPoint = 9;
+                b242.CopiesOnHand = 13;
                 b242.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b242);
 
@@ -3419,8 +3419,8 @@ namespace Team32_Project.Seeding
                 b243.Description ="The F.B.I.agent Kate O¡¯Hare and her con man partner, Nick Fox, face off against a dangerous ex-Serbian military officer.";
                 b243.Price = 25.99m;
                 b243.Cost = 18.45m;
-                b243.ReorderPoint = 5m;
-                b243.CopiesOnHand = 8m;
+                b243.ReorderPoint = 5;
+                b243.CopiesOnHand = 8;
                 b243.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b243);
 
@@ -3433,8 +3433,8 @@ namespace Team32_Project.Seeding
                 b244.Description ="Chief of Police Kate Burkholder goes undercover as a widow in a reclusive Amish community to investigate a girl's death.";
                 b244.Price = 24.00m;
                 b244.Cost = 6.72m;
-                b244.ReorderPoint = 9m;
-                b244.CopiesOnHand = 10m;
+                b244.ReorderPoint = 9;
+                b244.CopiesOnHand = 10;
                 b244.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b244);
 
@@ -3447,8 +3447,8 @@ namespace Team32_Project.Seeding
                 b245.Description ="A travel writer on a cruise is certain she has heard a body thrown overboard, but no one believes her.";
                 b245.Price = 32.00m;
                 b245.Cost = 3.52m;
-                b245.ReorderPoint = 7m;
-                b245.CopiesOnHand = 9m;
+                b245.ReorderPoint = 7;
+                b245.CopiesOnHand = 9;
                 b245.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b245);
 
@@ -3461,8 +3461,8 @@ namespace Team32_Project.Seeding
                 b246.Description ="Tense turning points for three couples at a backyard barbecue gone wrong.";
                 b246.Price = 14.99m;
                 b246.Cost = 10.04m;
-                b246.ReorderPoint = 6m;
-                b246.CopiesOnHand = 10m;
+                b246.ReorderPoint = 6;
+                b246.CopiesOnHand = 10;
                 b246.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b246);
 
@@ -3475,8 +3475,8 @@ namespace Team32_Project.Seeding
                 b247.Description ="A slave girl heads toward freedom on the network, envisioned as actual tracks and tunnels.";
                 b247.Price = 32.00m;
                 b247.Cost = 3.20m;
-                b247.ReorderPoint = 10m;
-                b247.CopiesOnHand = 12m;
+                b247.ReorderPoint = 10;
+                b247.CopiesOnHand = 12;
                 b247.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b247);
 
@@ -3489,8 +3489,8 @@ namespace Team32_Project.Seeding
                 b248.Description ="The first book of a new trilogy featuring Illarion, a dragon made into a human  against his will.A Dark-Hunter novel.";
                 b248.Price = 29.95m;
                 b248.Cost = 3.29m;
-                b248.ReorderPoint = 7m;
-                b248.CopiesOnHand = 10m;
+                b248.ReorderPoint = 7;
+                b248.CopiesOnHand = 10;
                 b248.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b248);
 
@@ -3503,8 +3503,8 @@ namespace Team32_Project.Seeding
                 b249.Description ="An adult novel by an award-winning children's book author centers on memories of growing up and the close friendship of four girls.";
                 b249.Price = 36.00m;
                 b249.Cost = 9.72m;
-                b249.ReorderPoint = 10m;
-                b249.CopiesOnHand = 12m;
+                b249.ReorderPoint = 10;
+                b249.CopiesOnHand = 12;
                 b249.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b249);
 
@@ -3517,8 +3517,8 @@ namespace Team32_Project.Seeding
                 b250.Description ="A hired killer and a woman he kidnapped join forces to elude the F.B.I.agents and others who are searching for her corrupt brother.";
                 b250.Price = 27.00m;
                 b250.Cost = 8.91m;
-                b250.ReorderPoint = 4m;
-                b250.CopiesOnHand = 9m;
+                b250.ReorderPoint = 4;
+                b250.CopiesOnHand = 9;
                 b250.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b250);
 
@@ -3531,8 +3531,8 @@ namespace Team32_Project.Seeding
                 b251.Description ="Will Trent of the Georgia Bureau of Investigation and his lover, the medical examiner Sara Linton, pursue a case involving a dirty Atlanta cop.";
                 b251.Price = 16.95m;
                 b251.Cost = 15.26m;
-                b251.ReorderPoint = 2m;
-                b251.CopiesOnHand = 2m;
+                b251.ReorderPoint = 2;
+                b251.CopiesOnHand = 2;
                 b251.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b251);
 
@@ -3545,8 +3545,8 @@ namespace Team32_Project.Seeding
                 b252.Description ="A woman starts a blog about her attempt to reach out to a grumpy neighbor at Christmastime, and finds herself falling for him.";
                 b252.Price = 25.99m;
                 b252.Cost = 23.13m;
-                b252.ReorderPoint = 10m;
-                b252.CopiesOnHand = 11m;
+                b252.ReorderPoint = 10;
+                b252.CopiesOnHand = 11;
                 b252.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b252);
 
@@ -3559,8 +3559,8 @@ namespace Team32_Project.Seeding
                 b253.Description ="In the final book of the Winter Street trilogy, a huge snowstorm bearing down on Nantucket threatens the Quinn family¡¯s Christmas, after a year of significant events.";
                 b253.Price = 29.00m;
                 b253.Cost = 24.94m;
-                b253.ReorderPoint = 4m;
-                b253.CopiesOnHand = 7m;
+                b253.ReorderPoint = 4;
+                b253.CopiesOnHand = 7;
                 b253.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b253);
 
@@ -3573,8 +3573,8 @@ namespace Team32_Project.Seeding
                 b254.Description ="Flynn¡¯s character, the C.I.A.operative Mitch Rapp, uncovers a dangerous Russian plot.Flynn died in 2013.";
                 b254.Price = 16.95m;
                 b254.Cost = 13.73m;
-                b254.ReorderPoint = 8m;
-                b254.CopiesOnHand = 9m;
+                b254.ReorderPoint = 8;
+                b254.CopiesOnHand = 9;
                 b254.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b254);
 
@@ -3587,8 +3587,8 @@ namespace Team32_Project.Seeding
                 b255.Description ="The vampire hunter Anita Blake, her friend Edward and her servant Damian travel to Ireland to battle an unusual vampire infestation.";
                 b255.Price = 16.99m;
                 b255.Cost = 7.65m;
-                b255.ReorderPoint = 10m;
-                b255.CopiesOnHand = 14m;
+                b255.ReorderPoint = 10;
+                b255.CopiesOnHand = 14;
                 b255.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b255);
 
@@ -3601,8 +3601,8 @@ namespace Team32_Project.Seeding
                 b256.Description ="While the F.B.I.agent Aloysius Pendergast is believed dead, his ward is kidnapped.";
                 b256.Price = 17.00m;
                 b256.Cost = 3.57m;
-                b256.ReorderPoint = 10m;
-                b256.CopiesOnHand = 13m;
+                b256.ReorderPoint = 10;
+                b256.CopiesOnHand = 13;
                 b256.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b256);
 
@@ -3615,8 +3615,8 @@ namespace Team32_Project.Seeding
                 b257.Description ="Virgil Flowers of the Minnesota Bureau of Criminal Apprehension must deal with the theft of tigers from the local zoo.";
                 b257.Price = 35.95m;
                 b257.Cost = 7.19m;
-                b257.ReorderPoint = 4m;
-                b257.CopiesOnHand = 5m;
+                b257.ReorderPoint = 4;
+                b257.CopiesOnHand = 5;
                 b257.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b257);
 
@@ -3629,8 +3629,8 @@ namespace Team32_Project.Seeding
                 b258.Description ="A whistleblower alerts a Florida investigator to judicial corruption involving the Mob and Indian casinos.";
                 b258.Price = 26.95m;
                 b258.Cost = 13.48m;
-                b258.ReorderPoint = 8m;
-                b258.CopiesOnHand = 13m;
+                b258.ReorderPoint = 8;
+                b258.CopiesOnHand = 13;
                 b258.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b258);
 
@@ -3643,8 +3643,8 @@ namespace Team32_Project.Seeding
                 b259.Description ="A century of life in small-town Elmwood Springs, Mo.";
                 b259.Price = 31.99m;
                 b259.Cost = 21.11m;
-                b259.ReorderPoint = 1m;
-                b259.CopiesOnHand = 2m;
+                b259.ReorderPoint = 1;
+                b259.CopiesOnHand = 2;
                 b259.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b259);
 
@@ -3657,8 +3657,8 @@ namespace Team32_Project.Seeding
                 b260.Description ="A novelization of the new movie, including additional scenes.";
                 b260.Price = 33.95m;
                 b260.Cost = 23.77m;
-                b260.ReorderPoint = 6m;
-                b260.CopiesOnHand = 7m;
+                b260.ReorderPoint = 6;
+                b260.CopiesOnHand = 7;
                 b260.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b260);
 
@@ -3671,8 +3671,8 @@ namespace Team32_Project.Seeding
                 b261.Description ="The beautiful mistress of a Russian oligarch falls in love with an artist and yearns for freedom.";
                 b261.Price = 36.95m;
                 b261.Cost = 15.52m;
-                b261.ReorderPoint = 4m;
-                b261.CopiesOnHand = 8m;
+                b261.ReorderPoint = 4;
+                b261.CopiesOnHand = 8;
                 b261.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b261);
 
@@ -3685,8 +3685,8 @@ namespace Team32_Project.Seeding
                 b262.Description ="Pike Logan, a member of a secret counterterrorist unit called the Taskforce, investigates a Saudi-backed Moroccan terrorist cell.";
                 b262.Price = 22.00m;
                 b262.Cost = 19.58m;
-                b262.ReorderPoint = 4m;
-                b262.CopiesOnHand = 6m;
+                b262.ReorderPoint = 4;
+                b262.CopiesOnHand = 6;
                 b262.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b262);
 
@@ -3699,8 +3699,8 @@ namespace Team32_Project.Seeding
                 b263.Description ="The first book of a new series, the Nicci Chronicles, centers on a character from the Sword of Truth fantasy series.";
                 b263.Price = 20.00m;
                 b263.Cost = 12.00m;
-                b263.ReorderPoint = 7m;
-                b263.CopiesOnHand = 8m;
+                b263.ReorderPoint = 7;
+                b263.CopiesOnHand = 8;
                 b263.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b263);
 
@@ -3713,8 +3713,8 @@ namespace Team32_Project.Seeding
                 b264.Description ="Four versions of the formative years of a Jewish boy born in Newark in 1947.";
                 b264.Price = 20.95m;
                 b264.Cost = 5.87m;
-                b264.ReorderPoint = 8m;
-                b264.CopiesOnHand = 9m;
+                b264.ReorderPoint = 8;
+                b264.CopiesOnHand = 9;
                 b264.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b264);
 
@@ -3727,8 +3727,8 @@ namespace Team32_Project.Seeding
                 b265.Description ="Court Gentry, now working for the C.I.A., pursues a Chinese hacker who is on the run.";
                 b265.Price = 21.95m;
                 b265.Cost = 16.24m;
-                b265.ReorderPoint = 8m;
-                b265.CopiesOnHand = 13m;
+                b265.ReorderPoint = 8;
+                b265.CopiesOnHand = 13;
                 b265.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b265);
 
@@ -3741,8 +3741,8 @@ namespace Team32_Project.Seeding
                 b266.Description ="Hannah Swensen, the bakery owner and amateur sleuth of Lake Eden, Minn., returns from her honeymoon to confront an actress¡¯s mysterious death.";
                 b266.Price = 36.95m;
                 b266.Cost = 14.41m;
-                b266.ReorderPoint = 5m;
-                b266.CopiesOnHand = 7m;
+                b266.ReorderPoint = 5;
+                b266.CopiesOnHand = 7;
                 b266.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b266);
 
@@ -3755,8 +3755,8 @@ namespace Team32_Project.Seeding
                 b267.Description ="The shape-shifter Mercy Thompson finds herself in the clutches of the world¡¯s most powerful vampire.";
                 b267.Price = 36.00m;
                 b267.Cost = 10.08m;
-                b267.ReorderPoint = 7m;
-                b267.CopiesOnHand = 7m;
+                b267.ReorderPoint = 7;
+                b267.CopiesOnHand = 7;
                 b267.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b267);
 
@@ -3769,8 +3769,8 @@ namespace Team32_Project.Seeding
                 b268.Description ="A journalist pursues the head of ISIS after an attack on the Capitol when the administration fails to take action.";
                 b268.Price = 27.95m;
                 b268.Cost = 12.02m;
-                b268.ReorderPoint = 7m;
-                b268.CopiesOnHand = 11m;
+                b268.ReorderPoint = 7;
+                b268.CopiesOnHand = 11;
                 b268.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b268);
 
@@ -3783,8 +3783,8 @@ namespace Team32_Project.Seeding
                 b269.Description ="The third Southwestern mystery featuring the Navajo police officer Bernadette Manuelito and her husband, Jim Chee.";
                 b269.Price = 31.99m;
                 b269.Cost = 24.63m;
-                b269.ReorderPoint = 6m;
-                b269.CopiesOnHand = 8m;
+                b269.ReorderPoint = 6;
+                b269.CopiesOnHand = 8;
                 b269.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b269);
 
@@ -3797,8 +3797,8 @@ namespace Team32_Project.Seeding
                 b270.Description ="Lincoln Rhyme travels to Italy to investigate a case.";
                 b270.Price = 16.00m;
                 b270.Cost = 1.60m;
-                b270.ReorderPoint = 5m;
-                b270.CopiesOnHand = 5m;
+                b270.ReorderPoint = 5;
+                b270.CopiesOnHand = 5;
                 b270.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b270);
 
@@ -3811,8 +3811,8 @@ namespace Team32_Project.Seeding
                 b271.Description ="The NUMA crew races the Russians and Chinese in a hunt for a missing American aircraft.";
                 b271.Price = 30.00m;
                 b271.Cost = 21.60m;
-                b271.ReorderPoint = 1m;
-                b271.CopiesOnHand = 6m;
+                b271.ReorderPoint = 1;
+                b271.CopiesOnHand = 6;
                 b271.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b271);
 
@@ -3825,8 +3825,8 @@ namespace Team32_Project.Seeding
                 b272.Description ="Complications in the lives of identical twins who were raised by their divorced parents, one on Nantucket, one on Martha¡¯s Vineyard.";
                 b272.Price = 33.95m;
                 b272.Cost = 4.41m;
-                b272.ReorderPoint = 10m;
-                b272.CopiesOnHand = 14m;
+                b272.ReorderPoint = 10;
+                b272.CopiesOnHand = 14;
                 b272.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b272);
 
@@ -3839,8 +3839,8 @@ namespace Team32_Project.Seeding
                 b273.Description ="Gabriel Allon, the Israeli art restorer and spy, now the head of Israel¡¯s secret intelligence service, pursues an ISIS mastermind.";
                 b273.Price = 33.95m;
                 b273.Cost = 17.31m;
-                b273.ReorderPoint = 5m;
-                b273.CopiesOnHand = 6m;
+                b273.ReorderPoint = 5;
+                b273.CopiesOnHand = 6;
                 b273.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b273);
 
@@ -3853,8 +3853,8 @@ namespace Team32_Project.Seeding
                 b274.Description ="Sunday Night, the heroine of a new series from the creator of Temperance Brennan, searches for a girl who may have been kidnapped by a cult.";
                 b274.Price = 17.95m;
                 b274.Cost = 15.98m;
-                b274.ReorderPoint = 9m;
-                b274.CopiesOnHand = 10m;
+                b274.ReorderPoint = 9;
+                b274.CopiesOnHand = 10;
                 b274.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b274);
 
@@ -3867,8 +3867,8 @@ namespace Team32_Project.Seeding
                 b275.Description ="Four old friends return to the site of their teenage adventures.";
                 b275.Price = 30.95m;
                 b275.Cost = 3.71m;
-                b275.ReorderPoint = 3m;
-                b275.CopiesOnHand = 4m;
+                b275.ReorderPoint = 3;
+                b275.CopiesOnHand = 4;
                 b275.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b275);
 
@@ -3881,8 +3881,8 @@ namespace Team32_Project.Seeding
                 b276.Description ="When a Berkeley woman vanishes after a hiking trip, her husband and daughter discover disturbing secrets.";
                 b276.Price = 32.95m;
                 b276.Cost = 30.64m;
-                b276.ReorderPoint = 4m;
-                b276.CopiesOnHand = 4m;
+                b276.ReorderPoint = 4;
+                b276.CopiesOnHand = 4;
                 b276.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b276);
 
@@ -3895,8 +3895,8 @@ namespace Team32_Project.Seeding
                 b277.Description ="Two New York writers go undercover to expose the secrets of a powerful retailer.";
                 b277.Price = 31.00m;
                 b277.Cost = 15.19m;
-                b277.ReorderPoint = 2m;
-                b277.CopiesOnHand = 2m;
+                b277.ReorderPoint = 2;
+                b277.CopiesOnHand = 2;
                 b277.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b277);
 
@@ -3909,8 +3909,8 @@ namespace Team32_Project.Seeding
                 b278.Description ="Rizzoli and Isles investigate two separate homicides and uncover other dangerous mysteries.";
                 b278.Price = 32.95m;
                 b278.Cost = 26.36m;
-                b278.ReorderPoint = 3m;
-                b278.CopiesOnHand = 8m;
+                b278.ReorderPoint = 3;
+                b278.CopiesOnHand = 8;
                 b278.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b278);
 
@@ -3923,8 +3923,8 @@ namespace Team32_Project.Seeding
                 b279.Description ="A newly married couple search for the wife's missing son, which leads them to a border town in the middle of a drug war.";
                 b279.Price = 32.95m;
                 b279.Cost = 17.79m;
-                b279.ReorderPoint = 10m;
-                b279.CopiesOnHand = 15m;
+                b279.ReorderPoint = 10;
+                b279.CopiesOnHand = 15;
                 b279.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b279);
 
@@ -3937,8 +3937,8 @@ namespace Team32_Project.Seeding
                 b280.Description ="Vince Flynn's character Mitch Rapp leaves the C.I.A. to go on a manhunt when the nephew of a Saudi King finances a terrorist group.";
                 b280.Price = 20.95m;
                 b280.Cost = 4.19m;
-                b280.ReorderPoint = 8m;
-                b280.CopiesOnHand = 13m;
+                b280.ReorderPoint = 8;
+                b280.CopiesOnHand = 13;
                 b280.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b280);
 
@@ -3951,8 +3951,8 @@ namespace Team32_Project.Seeding
                 b281.Description ="An artist with a mysterious past and a disregard for the status quo upends a quiet town outside Cleveland.";
                 b281.Price = 16.00m;
                 b281.Cost = 12.00m;
-                b281.ReorderPoint = 8m;
-                b281.CopiesOnHand = 10m;
+                b281.ReorderPoint = 8;
+                b281.CopiesOnHand = 10;
                 b281.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b281);
 
@@ -3965,8 +3965,8 @@ namespace Team32_Project.Seeding
                 b282.Description ="Updated profiles on the residents of Twin Peaks are assembled by special agent Tamara Preston.";
                 b282.Price = 27.95m;
                 b282.Cost = 8.66m;
-                b282.ReorderPoint = 1m;
-                b282.CopiesOnHand = 2m;
+                b282.ReorderPoint = 1;
+                b282.CopiesOnHand = 2;
                 b282.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b282);
 
@@ -3979,8 +3979,8 @@ namespace Team32_Project.Seeding
                 b283.Description ="During an investigation, Precious Ramotswe encounters a man from her past and a nurse who has her last name.";
                 b283.Price = 29.95m;
                 b283.Cost = 16.47m;
-                b283.ReorderPoint = 1m;
-                b283.CopiesOnHand = 1m;
+                b283.ReorderPoint = 1;
+                b283.CopiesOnHand = 1;
                 b283.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b283);
 
@@ -3993,8 +3993,8 @@ namespace Team32_Project.Seeding
                 b284.Description ="A small-time smuggler living in a lunar colony schemes to pay off an old debt by pulling off a challenging heist.";
                 b284.Price = 31.00m;
                 b284.Cost = 18.91m;
-                b284.ReorderPoint = 6m;
-                b284.CopiesOnHand = 8m;
+                b284.ReorderPoint = 6;
+                b284.CopiesOnHand = 8;
                 b284.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b284);
 
@@ -4007,8 +4007,8 @@ namespace Team32_Project.Seeding
                 b285.Description ="A bereaved detective confronts his past and works to clear his name when he becomes a suspect during an investigation into the murder of the man who killed his wife.";
                 b285.Price = 17.95m;
                 b285.Cost = 15.98m;
-                b285.ReorderPoint = 5m;
-                b285.CopiesOnHand = 6m;
+                b285.ReorderPoint = 5;
+                b285.CopiesOnHand = 6;
                 b285.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b285);
 
@@ -4021,8 +4021,8 @@ namespace Team32_Project.Seeding
                 b286.Description ="The 44th book in the Stone Barrington series.";
                 b286.Price = 16.00m;
                 b286.Cost = 11.36m;
-                b286.ReorderPoint = 3m;
-                b286.CopiesOnHand = 8m;
+                b286.ReorderPoint = 3;
+                b286.CopiesOnHand = 8;
                 b286.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b286);
 
@@ -4035,8 +4035,8 @@ namespace Team32_Project.Seeding
                 b287.Description ="Four adolescents learn the dates of their deaths from a psychic and their lives go on different courses.";
                 b287.Price = 31.00m;
                 b287.Cost = 22.32m;
-                b287.ReorderPoint = 6m;
-                b287.CopiesOnHand = 9m;
+                b287.ReorderPoint = 6;
+                b287.CopiesOnHand = 9;
                 b287.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b287);
 
@@ -4049,8 +4049,8 @@ namespace Team32_Project.Seeding
                 b288.Description ="The third book in the Black Dagger Legacy series.";
                 b288.Price = 30.95m;
                 b288.Cost = 21.05m;
-                b288.ReorderPoint = 10m;
-                b288.CopiesOnHand = 13m;
+                b288.ReorderPoint = 10;
+                b288.CopiesOnHand = 13;
                 b288.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b288);
 
@@ -4063,8 +4063,8 @@ namespace Team32_Project.Seeding
                 b289.Description ="Flavia de Luce, a young British sleuth, gets involved in solving a murder after experiencing a family tragedy.";
                 b289.Price = 26.95m;
                 b289.Cost = 21.83m;
-                b289.ReorderPoint = 5m;
-                b289.CopiesOnHand = 7m;
+                b289.ReorderPoint = 5;
+                b289.CopiesOnHand = 7;
                 b289.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b289);
 
@@ -4077,8 +4077,8 @@ namespace Team32_Project.Seeding
                 b290.Description ="A newlywed couple's relationship is tested when the husband is sentenced to 12 years in prison.";
                 b290.Price = 22.95m;
                 b290.Cost = 12.16m;
-                b290.ReorderPoint = 9m;
-                b290.CopiesOnHand = 11m;
+                b290.ReorderPoint = 9;
+                b290.CopiesOnHand = 11;
                 b290.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b290);
 
@@ -4091,8 +4091,8 @@ namespace Team32_Project.Seeding
                 b291.Description ="Detective Harriet Blue tries to clear her brother's name and save a small Australian town from being massacred.";
                 b291.Price = 35.99m;
                 b291.Cost = 28.07m;
-                b291.ReorderPoint = 7m;
-                b291.CopiesOnHand = 12m;
+                b291.ReorderPoint = 7;
+                b291.CopiesOnHand = 12;
                 b291.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b291);
 
@@ -4105,8 +4105,8 @@ namespace Team32_Project.Seeding
                 b292.Description ="An adaptation of the film, written with input from its director, Rian Johnson, which includes scenes from alternate versions of the script.";
                 b292.Price = 28.99m;
                 b292.Cost = 24.64m;
-                b292.ReorderPoint = 2m;
-                b292.CopiesOnHand = 4m;
+                b292.ReorderPoint = 2;
+                b292.CopiesOnHand = 4;
                 b292.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b292);
 
@@ -4119,8 +4119,8 @@ namespace Team32_Project.Seeding
                 b293.Description ="The 25th book in the Doc Ford series.The marine biologist searches for a state agency official and rare Spanish coins.";
                 b293.Price = 15.00m;
                 b293.Cost = 9.45m;
-                b293.ReorderPoint = 8m;
-                b293.CopiesOnHand = 10m;
+                b293.ReorderPoint = 8;
+                b293.CopiesOnHand = 10;
                 b293.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b293);
 
@@ -4133,8 +4133,8 @@ namespace Team32_Project.Seeding
                 b294.Description ="In 1940, months after Britain declared war on Germany, Maisie Dobbs investigates the disappearance of an apprentice working on a government contract.";
                 b294.Price = 24.95m;
                 b294.Cost = 19.21m;
-                b294.ReorderPoint = 1m;
-                b294.CopiesOnHand = 5m;
+                b294.ReorderPoint = 1;
+                b294.CopiesOnHand = 5;
                 b294.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b294);
 
@@ -4147,8 +4147,8 @@ namespace Team32_Project.Seeding
                 b295.Description ="In this adaptation of Shakespeare's tragedy, police in a 1970s industrial town take on a pair of drug lords.";
                 b295.Price = 28.95m;
                 b295.Cost = 7.53m;
-                b295.ReorderPoint = 7m;
-                b295.CopiesOnHand = 12m;
+                b295.ReorderPoint = 7;
+                b295.CopiesOnHand = 12;
                 b295.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b295);
 
@@ -4161,8 +4161,8 @@ namespace Team32_Project.Seeding
                 b296.Description = "An eccentric millionaire enlists the attorney Brooke Trappnell to fix old wrongs, which sets up a potential scandal and murder.";
                 b296.Price = 23.95m;
                 b296.Cost = 14.13m;
-                b296.ReorderPoint = 10m;
-                b296.CopiesOnHand = 14m;
+                b296.ReorderPoint = 10;
+                b296.CopiesOnHand = 14;
                 b296.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b296);
 
@@ -4175,8 +4175,8 @@ namespace Team32_Project.Seeding
                 b297.Description = "In Britain after World War II, a pair of teenage siblings are taken under the tutelage of a mysterious man and his cronies who served during the war.";
                 b297.Price = 26.00m;
                 b297.Cost = 20.28m;
-                b297.ReorderPoint = 6m;
-                b297.CopiesOnHand = 10m;
+                b297.ReorderPoint = 6;
+                b297.CopiesOnHand = 10;
                 b297.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b297);
 
@@ -4189,8 +4189,8 @@ namespace Team32_Project.Seeding
                 b298.Description = "A magazine columnist meets an array of Hollywood professionals when a producer turns a story about her grandmother into a TV series.";
                 b298.Price = 21.95m;
                 b298.Cost = 12.95m;
-                b298.ReorderPoint = 10m;
-                b298.CopiesOnHand = 15m;
+                b298.ReorderPoint = 10;
+                b298.CopiesOnHand = 15;
                 b298.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b298);
 
@@ -4203,8 +4203,8 @@ namespace Team32_Project.Seeding
                 b299.Description = "Three generations of a family gather one summer in South Carolina.";
                 b299.Price = 32.95m;
                 b299.Cost = 6.59m;
-                b299.ReorderPoint = 3m;
-                b299.CopiesOnHand = 6m;
+                b299.ReorderPoint = 3;
+                b299.CopiesOnHand = 6;
                 b299.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b299);
 
@@ -4217,8 +4217,8 @@ namespace Team32_Project.Seeding
                 b300.Description = "The 46th book in the Stone Barrington series.";
                 b300.Price = 15.95m;
                 b300.Cost = 6.06m;
-                b300.ReorderPoint = 10m;
-                b300.CopiesOnHand = 13m;
+                b300.ReorderPoint = 10;
+                b300.CopiesOnHand = 13;
                 b300.LastOrdered = new DateTime(2018, 10, 1);
                 Books.Add(b300);
 
