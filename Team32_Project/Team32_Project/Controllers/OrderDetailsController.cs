@@ -10,6 +10,8 @@ using Team32_Project.Models;
 
 namespace Team32_Project.Controllers
 {
+    //TODO
+    //[Authorize]
     public class OrderDetailsController : Controller
     {
         private readonly AppDbContext _context;

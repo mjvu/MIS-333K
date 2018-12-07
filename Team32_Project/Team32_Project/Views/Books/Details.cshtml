@@ -86,6 +86,8 @@
 </div>
 <div>
     <a asp-action="Edit" asp-route-id="@Model.BookID">Edit</a> |
-    <a asp-action="AddToOrder" asp-controller="Orders" asp-route-id="@Model.BookID" >Add to Cart</a> |
+    <a asp-action="AddToOrder" asp-controller="Orders" asp-route-id="@Model.BookID">Add to Cart</a> |
+    <a asp-action="Index" asp-controller="Reviews">Reviews/Rating</a> |
+    <a asp-action="Create" asp-controller="Reviews" asp-route-id="@Model.BookID">Review the Book</a> |
     <a asp-action="Index">Back to List</a>
 </div>

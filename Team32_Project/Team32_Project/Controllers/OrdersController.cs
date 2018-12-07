@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -11,6 +12,8 @@ using Team32_Project.Utilities;
 
 namespace Team32_Project.Controllers
 {
+    //TODO
+    //[Authorize]
     public class OrdersController : Controller
     {
         private readonly AppDbContext _context;
@@ -26,7 +29,7 @@ namespace Team32_Project.Controllers
             List<Order> Orders = new List<Order>();
             if (User.IsInRole("Customer"))
             {
-                Orders = _context.Orders.Where(o => o.Customer.UserName == User.Identity.Name).Include(o => o.OrderDetails).ToList();
+                Orders = _context.Orders.Where(o => o.Customer.UserName == User.Identity.Name).Include(o => o.OrderDetails).OrderByDescending(o => o.OrderDate).ToList();
             }
             else //user is manager and can see all orders
             {
@@ -62,6 +65,7 @@ namespace Team32_Project.Controllers
             }
             return View(order);
         }
+
 
         // GET: Orders/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
@@ -101,6 +105,8 @@ namespace Team32_Project.Controllers
             return View(FindCart);
         }
 
+        //TODO
+        //[Authorize(Roles = "Customer")]
         //GET: Orders/AddToOrder
         //creates order details for an order
         public IActionResult AddToOrder(int? id, int? OrderID)
@@ -145,6 +151,8 @@ namespace Team32_Project.Controllers
             return View("AddToOrder", od);
         }
 
+        //TODO
+        //[Authorize(Roles = "Customer")]
         //POST: Orders/AddToOrder
         [HttpPost]
         public IActionResult AddToOrder(OrderDetail od)
@@ -183,6 +191,7 @@ namespace Team32_Project.Controllers
             return View(od);
         }
 
+
         // GET: Orders/Edit/5
         public IActionResult Edit(int? id)
         {
@@ -211,6 +220,9 @@ namespace Team32_Project.Controllers
         {
             //Find the related order in the database
             Order DbOrder = _context.Orders.Find(order.OrderID);
+
+            //update the related fields
+            DbOrder.OrderStatus = order.OrderStatus;
 
             //Update the database
             _context.Orders.Update(DbOrder);

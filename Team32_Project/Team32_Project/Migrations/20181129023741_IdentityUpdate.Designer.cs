@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Team32_Project.DAL;
 
 namespace Team32_Project.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20181129023741_IdentityUpdate")]
+    partial class IdentityUpdate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -212,11 +214,13 @@ namespace Team32_Project.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<bool>("Active");
+
                     b.Property<string>("Author");
 
                     b.Property<decimal>("AverageRating");
 
-                    b.Property<int>("CopiesOnHand");
+                    b.Property<decimal>("CopiesOnHand");
 
                     b.Property<decimal>("Cost");
 
@@ -224,15 +228,15 @@ namespace Team32_Project.Migrations
 
                     b.Property<int?>("GenreID");
 
-                    b.Property<bool>("Inactive");
-
                     b.Property<DateTime>("LastOrdered");
 
                     b.Property<decimal>("Price");
 
                     b.Property<DateTime>("PublicationDate");
 
-                    b.Property<int>("ReorderPoint");
+                    b.Property<decimal>("Quantity");
+
+                    b.Property<decimal>("ReorderPoint");
 
                     b.Property<string>("Title");
 
@@ -280,11 +284,7 @@ namespace Team32_Project.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("CardNumber")
-                        .IsRequired();
-
-                    b.Property<string>("CardType")
-                        .IsRequired();
+                    b.Property<short>("CreditCardNumber");
 
                     b.Property<string>("CustomerId");
 
@@ -318,11 +318,7 @@ namespace Team32_Project.Migrations
 
                     b.Property<DateTime>("OrderDate");
 
-                    b.Property<int>("OrderNumber");
-
-                    b.Property<int>("OrderStatus");
-
-                    b.Property<decimal>("ShippingPrice");
+                    b.Property<bool>("Status");
 
                     b.HasKey("OrderID");
 
@@ -339,13 +335,11 @@ namespace Team32_Project.Migrations
 
                     b.Property<int?>("BookID");
 
-                    b.Property<decimal>("BookPrice");
-
-                    b.Property<decimal>("ExtendedPrice");
-
                     b.Property<int?>("OrderID");
 
-                    b.Property<int>("Quantity");
+                    b.Property<decimal>("Price");
+
+                    b.Property<decimal>("Quantity");
 
                     b.HasKey("OrderDetailID");
 
@@ -364,7 +358,7 @@ namespace Team32_Project.Migrations
 
                     b.Property<string>("AppUserId");
 
-                    b.Property<int>("ReorderType");
+                    b.Property<bool>("ReorderType");
 
                     b.HasKey("ReorderID");
 
@@ -382,8 +376,6 @@ namespace Team32_Project.Migrations
                     b.Property<int?>("BookID");
 
                     b.Property<decimal>("Cost");
-
-                    b.Property<decimal>("ExtendedCost");
 
                     b.Property<int?>("ReorderID");
 
@@ -487,7 +479,7 @@ namespace Team32_Project.Migrations
             modelBuilder.Entity("Team32_Project.Models.CreditCard", b =>
                 {
                     b.HasOne("Team32_Project.Models.AppUser", "Customer")
-                        .WithMany("CreditCards")
+                        .WithMany()
                         .HasForeignKey("CustomerId");
                 });
 

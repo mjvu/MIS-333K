@@ -7,7 +7,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Team32_Project.DAL;
 using Team32_Project.Models;
-
+using System.Net.Mail;
+using System.Net;
+using SendMailTest;
 
 namespace Team32_Project.Controllers
 {
@@ -60,6 +62,7 @@ namespace Team32_Project.Controllers
                 model.Password, model.RememberMe, lockoutOnFailure: false);
             if (result.Succeeded)
             {
+                
                 return RedirectToAction("Index", "Account");
             }
             else
@@ -102,12 +105,17 @@ namespace Team32_Project.Controllers
                 if (result.Succeeded)
                 {
                     //This will not work until you have seeded Identity OR added the "Customer" role 
-                    //by navigating to the RoleAdmin controller and manually added the "Customer" role
-                
+                    //by navigating to the RoleAdmin controller and manually added the "Customer" role                
                     await _userManager.AddToRoleAsync(user, "Customer");
                     //await _userManager.AddToRoleAsync(user, "Employee");
                     //await _userManager.AddToRoleAsync(user, "Manager");
                     await _signInManager.SignInAsync(user, isPersistent: false);
+                    //add email function
+                    String toEmail = model.Email;
+                    String Subject = "Account Created!";
+                    String Body = "Thank you for creating an account with Bevo's Books!";
+                    EmailMessaging.SendEmail(toEmail, Subject, Body);
+
                     return RedirectToAction("Index", "Account");
                 }
                 else
@@ -165,15 +173,17 @@ namespace Team32_Project.Controllers
             //}
             AppUser userLoggedIn = await _userManager.FindByNameAsync(User.Identity.Name);
 
-            userLoggedIn.Email = model.Email;
-            userLoggedIn.FirstName = model.FirstName;
-            userLoggedIn.MiddleInitial = model.MiddleInitial;
-            userLoggedIn.LastName = model.LastName;
             userLoggedIn.StreetAddress = model.StreetAddress;
             userLoggedIn.City = model.City;
             userLoggedIn.State = model.State;
             userLoggedIn.ZipCode = model.ZipCode;
             userLoggedIn.PhoneNumber = model.PhoneNumber;
+
+            userLoggedIn.Email = model.Email;
+            userLoggedIn.FirstName = model.FirstName;
+            userLoggedIn.MiddleInitial = model.MiddleInitial;
+            userLoggedIn.LastName = model.LastName;
+
 
             var result = await _userManager.UpdateAsync(userLoggedIn);
 
@@ -183,6 +193,7 @@ namespace Team32_Project.Controllers
                 await _db.SaveChangesAsync();
 
                 await _signInManager.SignInAsync(userLoggedIn, isPersistent: false);
+
                 return RedirectToAction(nameof(Index));
             }
 
@@ -209,7 +220,14 @@ namespace Team32_Project.Controllers
             var result = await _userManager.ChangePasswordAsync(userLoggedIn, model.OldPassword, model.NewPassword);
             if (result.Succeeded)
             {
-                await _signInManager.SignInAsync(userLoggedIn, isPersistent: false); 
+                await _signInManager.SignInAsync(userLoggedIn, isPersistent: false);
+
+                //send email
+                String toEmail = userLoggedIn.Email;
+                String Subject = "Password Changed!";
+                String Body = "Congrats! You changed your password.";
+                EmailMessaging.SendEmail(toEmail, Subject, Body);
+
                 return RedirectToAction("Index", "Home");
             }
             AddErrors(result);

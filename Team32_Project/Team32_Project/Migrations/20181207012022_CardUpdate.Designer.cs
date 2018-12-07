@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Team32_Project.DAL;
 
 namespace Team32_Project.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20181207012022_CardUpdate")]
+    partial class CardUpdate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -364,7 +366,7 @@ namespace Team32_Project.Migrations
 
                     b.Property<string>("AppUserId");
 
-                    b.Property<int>("ReorderType");
+                    b.Property<bool>("ReorderType");
 
                     b.HasKey("ReorderID");
 
@@ -382,8 +384,6 @@ namespace Team32_Project.Migrations
                     b.Property<int?>("BookID");
 
                     b.Property<decimal>("Cost");
-
-                    b.Property<decimal>("ExtendedCost");
 
                     b.Property<int?>("ReorderID");
 

@@ -10,6 +10,8 @@ using Team32_Project.Models;
 
 namespace Team32_Project.Controllers
 {
+    //TODO
+    //[Authorize(Roles = "Manager")]
     public class CouponsController : Controller
     {
         private readonly AppDbContext _context;
