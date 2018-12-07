@@ -267,6 +267,14 @@ namespace Team32_Project.Controllers
                                 .Include(o => o.OrderDetails)
                                     .ThenInclude(o => o.Book)
                                 .FirstOrDefault(o => o.OrderID == id);
+            //check if cart is empty
+            Int32 CheckOrder = order.OrderDetails.Count();
+
+            if (CheckOrder == 0)
+            {
+                return View("Error", new string[] { "You can't checkout an empty cart!" });
+            }
+
             if (order == null)
             {
                 return NotFound();

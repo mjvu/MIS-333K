@@ -26,9 +26,9 @@
                     <li class="nav-item">
                         @Html.ActionLink("Book Search", "DetailedSearch", "Search", null, new { @class = "nav-link" })
                     </li>
-                    <li class="nav-item">
+                    @*<li class="nav-item">
                         @Html.ActionLink("Seed Data", "Index", "Seed", null, new { @class = "nav-link" })
-                    </li>
+                    </li>*@
 
                     @if (User.Identity.IsAuthenticated)
                     {

@@ -12,7 +12,11 @@
 
 @if (User.Identity.IsAuthenticated)
 {
-    @Html.ActionLink("Cart", "Create", "Orders", null, new { @class = "btn btn-danger" })
+    if (User.IsInRole("Customer"))
+    {
+        @:
+        @Html.ActionLink("Cart", "Create", "Orders", null, new { @class = "btn btn-danger" })
+    }
 
     if (User.IsInRole("Employee"))
     {
