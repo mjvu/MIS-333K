@@ -10,13 +10,22 @@
     <thead>
         <tr>
             <th>
+                Review By
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Book.Title)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.Rating)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.CustomerReview)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Author)
+                @Html.DisplayNameFor(model => model.ReviewStatus)
+            </th>
+            <th>
+                Review Approved By
             </th>
             <th></th>
         </tr>
@@ -25,13 +34,22 @@
 @foreach (var item in Model) {
         <tr>
             <td>
+                @Html.DisplayFor(modelItem => item.Author.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Book.Title)
+            </td>
+            <td>
                 @Html.DisplayFor(modelItem => item.Rating)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.CustomerReview)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Author)
+                @Html.DisplayFor(modelItem => item.ReviewStatus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Approver.UserName)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.ReviewID">Edit</a> |

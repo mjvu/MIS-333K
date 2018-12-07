@@ -11,8 +11,18 @@
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Create">
-            <input type="hidden" asp-for="Book.BookID" />
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Book.BookID" />
+            <div class="form-group">
+                Review By
+                <input asp-for="Author.UserName" class="form-control" />
+                <span asp-validation-for="Author.UserName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Book.Title" class="control-label"></label>
+                <input asp-for="Book.Title" class="form-control" />
+                <span asp-validation-for="Book.Title" class="text-danger"></span>
+            </div>
             <div class="form-group">
                 <label asp-for="Rating" class="control-label"></label>
                 <input asp-for="Rating" class="form-control" />
@@ -24,7 +34,17 @@
                 <span asp-validation-for="CustomerReview" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-default" />
+                <label asp-for="ReviewStatus" class="control-label"></label>
+                <input asp-for="ReviewStatus" class="form-control" />
+                <span asp-validation-for="ReviewStatus" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                Review Approved By
+                <input asp-for="Approver.UserName" class="form-control" />
+                <span asp-validation-for="Approver.UserName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
             </div>
         </form>
     </div>
@@ -34,6 +54,3 @@
     <a asp-action="Index">Back to List</a>
 </div>
 
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}

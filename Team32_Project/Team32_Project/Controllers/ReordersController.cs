@@ -11,7 +11,8 @@ using Team32_Project.Models;
 
 namespace Team32_Project.Controllers
 {
-    [Authorize(Roles = "Manager")]
+    //TODO
+    //[Authorize(Roles = "Manager")]
     public class ReordersController : Controller
     {
         private readonly AppDbContext _context;

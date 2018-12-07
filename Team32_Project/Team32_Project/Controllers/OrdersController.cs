@@ -12,7 +12,8 @@ using Team32_Project.Utilities;
 
 namespace Team32_Project.Controllers
 {
-    [Authorize]
+    //TODO
+    //[Authorize]
     public class OrdersController : Controller
     {
         private readonly AppDbContext _context;
@@ -112,13 +113,13 @@ namespace Team32_Project.Controllers
             //find cart
             Order FindCart = _context.Orders.Where(o => o.Customer.UserName == User.Identity.Name).
                 FirstOrDefault(o => o.OrderStatus == Order.Status.Pending);
-
+            Order cart = _context.Orders.Find(FindCart.OrderID);
+            OrderID = cart.OrderID;
             if (FindCart == null)
             {
                 return RedirectToAction("Create");
             }
-            Order cart = _context.Orders.Find(FindCart.OrderID);
-            OrderID = cart.OrderID;
+
             if (id == null)
             {
                 return View("Error", new string[] { "You must specify a book to add!" });

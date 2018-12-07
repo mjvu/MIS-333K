@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -55,7 +54,7 @@ namespace Team32_Project.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ReviewID,Rating,CustomerReview,Author,Approver")] Review review)
+        public async Task<IActionResult> Create([Bind("ReviewID,Rating,CustomerReview,ReviewStatus")] Review review)
         {
             if (ModelState.IsValid)
             {
@@ -87,7 +86,7 @@ namespace Team32_Project.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ReviewID,Rating,CustomerReview,Author,Approver")] Review review)
+        public async Task<IActionResult> Edit(int id, [Bind("ReviewID,Rating,CustomerReview,ReviewStatus")] Review review)
         {
             if (id != review.ReviewID)
             {
