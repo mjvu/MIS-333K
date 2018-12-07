@@ -748,7 +748,7 @@ namespace Team32_Project.Seeding
             {
                 customer24 = new AppUser();
                 //customer24.CustomerID = "9033";
-                customer24.UserName = "gregmartinez@drdre.com;
+                customer24.UserName = "gregmartinez@drdre.com";
                 customer24.Email = "gregmartinez@drdre.com";
                 customer24.LastName = "Martinez";
                 customer24.FirstName = "Gregory";
