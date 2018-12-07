@@ -22,19 +22,26 @@ namespace Team32_Project.Controllers
         // GET: Reviews
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Reviews.ToListAsync());
+            return View(await _context.Reviews.Include(r => r.Author)
+                                                .Include(r => r.Book)
+                                                .Include(r => r.Approver)
+                                                .ToListAsync());
         }
 
         // GET: Reviews/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public IActionResult Details(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var review = await _context.Reviews
-                .FirstOrDefaultAsync(m => m.ReviewID == id);
+            Review review = _context.Reviews
+                    .Include(r => r.Author)
+                        .Include(r => r.Book)
+                        .Include(r => r.Approver)
+                    .FirstOrDefault(r => r.ReviewID == id);
+
             if (review == null)
             {
                 return NotFound();
@@ -54,8 +61,17 @@ namespace Team32_Project.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ReviewID,Rating,CustomerReview,ReviewStatus")] Review review)
+        public async Task<IActionResult> Create([Bind("ReviewID,Author,Book,Rating,CustomerReview,ReviewStatus,Approver")] Review review)
         {
+            String ReviewStatus = review.ReviewStatus;
+            //find customer associated with review
+            String Author = User.Identity.Name;
+            AppUser author = _context.Users.FirstOrDefault(u => u.UserName == Author);
+            review.Author = author;
+            String Approver = User.Identity.Name;
+            AppUser approver = _context.Users.FirstOrDefault(u => u.UserName == Approver);
+            review.Approver = approver;
+
             if (ModelState.IsValid)
             {
                 _context.Add(review);
@@ -66,14 +82,18 @@ namespace Team32_Project.Controllers
         }
 
         // GET: Reviews/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public IActionResult Edit(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var review = await _context.Reviews.FindAsync(id);
+            var review = _context.Reviews
+                                .Include(r => r.Author)
+                                    .Include(r => r.Book)
+                                    .Include(r => r.Approver)
+                                .FirstOrDefault(r => r.ReviewID == id);
             if (review == null)
             {
                 return NotFound();
@@ -86,34 +106,24 @@ namespace Team32_Project.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ReviewID,Rating,CustomerReview,ReviewStatus")] Review review)
+        public IActionResult Edit(Review review)
         {
-            if (id != review.ReviewID)
-            {
-                return NotFound();
-            }
+            //Find the related review in the database
+            Review DbReview = _context.Reviews.Find(review.ReviewID);
 
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(review);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!ReviewExists(review.ReviewID))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            return View(review);
+            //update the related fields
+            DbReview.Author.UserName = review.Author.UserName;
+            DbReview.ReviewStatus = review.ReviewStatus;
+            DbReview.Approver.UserName = review.Approver.UserName;
+
+            //Update the database
+            _context.Reviews.Update(DbReview);
+
+            //Save changes
+            _context.SaveChanges();
+
+            //Go back to index
+            return RedirectToAction(nameof(Index));
         }
 
         // GET: Reviews/Delete/5
