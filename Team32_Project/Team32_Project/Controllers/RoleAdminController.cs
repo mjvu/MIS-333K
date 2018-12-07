@@ -11,7 +11,7 @@ using Team32_Project.Models;
 
 namespace Team32_Project.Controllers
 {
-    //[Authorize(Roles = "Manager")]
+    [Authorize]
     public class RoleAdminController : Controller
     {
         private AppDbContext _db;
