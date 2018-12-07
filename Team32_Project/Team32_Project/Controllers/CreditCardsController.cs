@@ -25,6 +25,24 @@ namespace Team32_Project.Controllers
             return View(await _context.CreditCards.ToListAsync());
         }
 
+        // GET: CreditCards/Details/5
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var creditCard = await _context.CreditCards
+                .FirstOrDefaultAsync(m => m.CreditCardID == id);
+            if (creditCard == null)
+            {
+                return NotFound();
+            }
+
+            return View(creditCard);
+        }
+
         // GET: CreditCards/Create
         public IActionResult Create()
         {
@@ -36,7 +54,7 @@ namespace Team32_Project.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("CreditCardID,Card1,Card2,Card3")] CreditCard creditCard)
+        public async Task<IActionResult> Create([Bind("CreditCardID,CardType,CardNumber")] CreditCard creditCard)
         {
             if (ModelState.IsValid)
             {
@@ -68,7 +86,7 @@ namespace Team32_Project.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("CreditCardID,Card1,Card2,Card3")] CreditCard creditCard)
+        public async Task<IActionResult> Edit(int id, [Bind("CreditCardID,CardType,CardNumber")] CreditCard creditCard)
         {
             if (id != creditCard.CreditCardID)
             {

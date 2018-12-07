@@ -149,33 +149,20 @@ namespace Team32_Project.Controllers
 
         //Logic for editing account info
         // GET: /Account/Edit
-        //public async Task<IActionResult> Edit(string Email)
-        public ActionResult Edit()
+        public IActionResult Edit()
         {
-            //if (Email == null)
-            //{
-            //    return NotFound();
-            //}
-
-            //var user = await _db.Users.FindAsync(Email);
-            //if (user == null)
-            //{
-            //    return NotFound();
-            //}
-            //return View(user);
             return View();
         }
 
         // POST: /Account/EditAccountInfo
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Edit(int id, [Bind("UserID,Email,FirstName,MiddleInitial,LastName," +
-                                                "StreetAddress,City,State,ZipCode,PhoneNumber")]EditAccountInfoViewModel model)
+        public async Task<ActionResult> Edit(EditAccountInfoViewModel model)
         {
-            if (!ModelState.IsValid)
-            {
-                return View(model);
-            }
+            //if (!ModelState.IsValid)
+            //{
+            //    return View(model);
+            //}
             AppUser userLoggedIn = await _userManager.FindByNameAsync(User.Identity.Name);
 
             userLoggedIn.Email = model.Email;
@@ -188,8 +175,6 @@ namespace Team32_Project.Controllers
             userLoggedIn.ZipCode = model.ZipCode;
             userLoggedIn.PhoneNumber = model.PhoneNumber;
 
-            //NOTE:prob not correct way to update and edit info 
-            //need to make sure it works
             var result = await _userManager.UpdateAsync(userLoggedIn);
 
             if (result.Succeeded)

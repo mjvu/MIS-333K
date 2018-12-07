@@ -7,19 +7,19 @@
 <h2>Index</h2>
 
 <p>
-    <a asp-action="Create">Add Credit Card</a>
+    <a asp-action="Create">Add a Credit Card</a>
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Card1)
+                @Html.DisplayNameFor(model => model.CreditCardID)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Card2)
+                @Html.DisplayNameFor(model => model.CardType)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Card3)
+                @Html.DisplayNameFor(model => model.CardNumber)
             </th>
             <th></th>
         </tr>
@@ -28,16 +28,17 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Card1)
+                @Html.DisplayFor(modelItem => item.CreditCardID)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Card2)
+                @Html.DisplayFor(modelItem => item.CardType)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Card3)
+                @Html.DisplayFor(modelItem => item.CardNumber)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.CreditCardID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.CreditCardID">Details</a> |
                 <a asp-action="Delete" asp-route-id="@item.CreditCardID">Delete</a>
             </td>
         </tr>

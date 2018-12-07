@@ -71,7 +71,7 @@ namespace Team32_Project.Models
 
     public class EditAccountInfoViewModel
     {
-        public String UserID { get; set; }
+        public AppUser User { get; set; }
 
         [Required]
         [EmailAddress]

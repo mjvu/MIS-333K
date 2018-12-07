@@ -10,13 +10,19 @@ namespace Team32_Project.Utilities
 {
     public class CalculateShippingPrice
     {
-        //public static Decimal GetTotalShippingPrice(AppDbContext _context)
-        //{
-        //    Decimal TotalShippingPrice;
+        public static Decimal GetTotalShippingPrice(Order order)
+        {
+            Decimal NumberofBooks = order.OrderDetails.Count();
+            Decimal ShipPrice1;
+            Decimal ShipPrice2;
+            Decimal TotalShippingPrice;
 
-        //    TotalShippingPrice = (*FirstShipPrice) + (*AdditionalShipPrice);
+            ShipPrice1 = 3.50m;
+            ShipPrice2 = 1.50m;
 
-        //    return TotalShippingPrice;
-        //}
+            TotalShippingPrice = (1 * ShipPrice1) + ((NumberofBooks - 1) * ShipPrice2);
+
+            return TotalShippingPrice;
+        }
     }
 }

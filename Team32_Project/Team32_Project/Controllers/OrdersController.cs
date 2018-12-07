@@ -48,6 +48,8 @@ namespace Team32_Project.Controllers
                 .Include(o => o.OrderDetails).ThenInclude(o => o.Book)
                 .FirstOrDefault(o => o.OrderID == id);
 
+            order.ShippingPrice = CalculateShippingPrice.GetTotalShippingPrice(order);
+
             //make sure a customer isn't trying to look at someone else's order
             if (User.IsInRole("Manager") == false && order.Customer.UserName != User.Identity.Name)
             {
@@ -161,6 +163,8 @@ namespace Team32_Project.Controllers
 
             //set the product price for this detail equal to the current product price
             od.BookPrice = od.Book.Price;
+
+            //calculate the shipping price
 
             if (od.Quantity > book.CopiesOnHand)
             {
@@ -277,14 +281,14 @@ namespace Team32_Project.Controllers
             //Save changes
             _context.SaveChanges();
 
-            //Go back to index
+            //Go to confirmation page
             return RedirectToAction("OrderConfirmation");
         }
 
         public MultiSelectList GetAllCards()
         {
             List<CreditCard> allCards = _context.CreditCards.ToList();
-            MultiSelectList cardList = new MultiSelectList(allCards, "CreditCardID", "SupplierName");
+            MultiSelectList cardList = new MultiSelectList(allCards, "CreditCardID", "CardNumber");
             return cardList;
         }
 

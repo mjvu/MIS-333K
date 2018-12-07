@@ -1,10 +1,10 @@
 ﻿@model Team32_Project.Models.Order
 
 @{
-    ViewData["Title"] = "Checkout";
+    ViewData["Title"] = "OrderConfirmation";
 }
 
-<h2>Checkout</h2>
+<h2>Order Confirmation</h2>
 
 <div>
     <h4>Order</h4>
@@ -12,8 +12,8 @@
     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
     <input type="hidden" asp-for="OrderID" />
     <div class="form-group">
-        <label class="control-label">Select A Credit Card:</label>
-        @Html.DropDownList("SelectedCards", (MultiSelectList)ViewBag.AllCards, new { @class = "form-control" })
+        <label class="control-label">Credit Card:</label>
+        @Html.DisplayNameFor(model => model.Customer)
     </div>
     <div class="form-group">
         <label>Coupon Code:</label>
@@ -91,3 +91,10 @@
     <a asp-action="Checkout" asp-route-id="@Model.OrderID">Place Order</a> |
     <a asp-action="Index" asp-controller="Orders">Back to Orders</a>
 </div>
+
+@{
+    ViewData["Title"] = "OrderConfirmation";
+}
+
+<h2>OrderConfirmation</h2>
+

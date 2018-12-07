@@ -13,9 +13,6 @@ namespace Team32_Project.Models
         //Full documentation of the IdentityUser class can be found at
         //https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.entityframeworkcore.identityuser?view=aspnetcore-1.1&viewFallbackFrom=aspnetcore-2.1
 
-        //TODO: Change this property because it is not proper
-        public Int32 UserID { get; set; }
-
         [Required(ErrorMessage = "First name is required.")]
         [Display(Name = "First Name")]
         public String FirstName { get; set; }
@@ -56,6 +53,7 @@ namespace Team32_Project.Models
 
         public List<Reorder> Reorders { get; set; }
         public List<Coupon> Coupons { get; set; }
+        public List<CreditCard> CreditCards { get; set; }
 
         public AppUser()
         {
